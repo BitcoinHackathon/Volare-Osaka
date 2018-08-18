@@ -20,6 +20,8 @@
 		0C26AB9C2126C5BB00170732 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C26AB932126C5BB00170732 /* Transaction.swift */; };
 		0C26AB9D2126C5BB00170732 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C26AB942126C5BB00170732 /* AppController.swift */; };
 		8D0831BEE562E7B7B1EBBD67 /* Pods_SimpleWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB88B0D18594CC5096B8A960 /* Pods_SimpleWallet.framework */; };
+		A8336F2F212874DF00FD03A5 /* car.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8336F2E212874DF00FD03A5 /* car.storyboard */; };
+		A8336F312128753400FD03A5 /* carViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8336F302128753400FD03A5 /* carViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		0C26AB932126C5BB00170732 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		0C26AB942126C5BB00170732 /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
 		2157C1D52AAB5B48A1E2A1AC /* Pods-SimpleWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleWallet/Pods-SimpleWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		A8336F2E212874DF00FD03A5 /* car.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = car.storyboard; sourceTree = "<group>"; };
+		A8336F302128753400FD03A5 /* carViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carViewController.swift; sourceTree = "<group>"; };
 		BB88B0D18594CC5096B8A960 /* Pods_SimpleWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60041C4C0DB7CD20893A5C3 /* Pods-SimpleWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleWallet/Pods-SimpleWallet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +92,8 @@
 				0C26AB812126C59F00170732 /* Assets.xcassets */,
 				0C26AB832126C59F00170732 /* LaunchScreen.storyboard */,
 				0C26AB862126C59F00170732 /* Info.plist */,
+				A8336F2E212874DF00FD03A5 /* car.storyboard */,
+				A8336F302128753400FD03A5 /* carViewController.swift */,
 			);
 			path = SimpleWallet;
 			sourceTree = "<group>";
@@ -172,6 +178,7 @@
 				0C26AB9B2126C5BB00170732 /* Main.storyboard in Resources */,
 				0C26AB852126C59F00170732 /* LaunchScreen.storyboard in Resources */,
 				0C26AB822126C59F00170732 /* Assets.xcassets in Resources */,
+				A8336F2F212874DF00FD03A5 /* car.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +237,7 @@
 				0C26AB7B2126C59E00170732 /* AppDelegate.swift in Sources */,
 				0C26AB9D2126C5BB00170732 /* AppController.swift in Sources */,
 				0C26AB982126C5BB00170732 /* APIClient.swift in Sources */,
+				A8336F312128753400FD03A5 /* carViewController.swift in Sources */,
 				0C26AB9A2126C5BB00170732 /* HomeViewController.swift in Sources */,
 				0C26AB952126C5BB00170732 /* Extension.swift in Sources */,
 			);
