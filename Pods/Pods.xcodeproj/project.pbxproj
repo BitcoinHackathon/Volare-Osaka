@@ -7,192 +7,192 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		005638E76A373921988DEBE3FB871A3B /* OP_3DUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C6137A457EB1227FD9E72695380080 /* OP_3DUP.swift */; };
-		058A7412E8535645519F2BB9126B3B13 /* MockHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3381131AB175F63F129AF6873F93375 /* MockHelper.swift */; };
-		0649A675197D880D9C1A100779A38A77 /* OP_CODESEPARATOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6C6DA6A48D66ECECF2D35DF3683893 /* OP_CODESEPARATOR.swift */; };
-		071F628A3CDA6E767B3D17BA052D1370 /* TransactionInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B58C1786E2B8090A7DEC49C00194508 /* TransactionInput.swift */; };
-		07B85E7B03F9F86BF177973841426162 /* OP_N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422645691546FBC3E6823CB40FF30CD3 /* OP_N.swift */; };
-		109107794C33138E0AEBAB48BA356090 /* OP_SPLIT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C7D75A2D184612F713045D111EDFD6 /* OP_SPLIT.swift */; };
-		11497A7B2AD4F11BA89874A4F8CE69C2 /* VersionByte.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5EEF279591BB8CFA5E99E9254ABA1E /* VersionByte.swift */; };
-		11F3A30BEC72C0DE0B75D767985903F4 /* OP_EXAMPLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4542B51388C183FC038D854BD8F81B0F /* OP_EXAMPLE.swift */; };
-		142C868D16214F64DA49CBB4ECC159C6 /* GetBlocksMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873596364170D205A80E8CD8BD704E94 /* GetBlocksMessage.swift */; };
-		1595BE1B3A7DE575516FA564626EACFC /* MockKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B368393FE79C71BB3ED0F638FF479D09 /* MockKey.swift */; };
-		1775C1E27EB8F7B33E49C19EF86DC77E /* OP_WITHIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B12DDACCDE9A7DBDE3A6579C07E83 /* OP_WITHIN.swift */; };
-		18F447E46B6F6027EA0C13DE6B9B7E40 /* OP_PUBKEYHASH.swift in Sources */ = {isa = PBXBuildFile; fileRef = C375B0AB396D7BABD20833271466801C /* OP_PUBKEYHASH.swift */; };
-		1A6C895768D5E690646308765A8BED96 /* BitcoinKitPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 574CB88EE90E3A18B7DEEE0182507093 /* BitcoinKitPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1B688CD4B9CB4237F13483EE15A398F7 /* OP_RESERVED2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360E25BE072F1F362B06AF5ADF4896C /* OP_RESERVED2.swift */; };
-		1B9EA24EE0081302C38B4D8D917A12D9 /* ServiceFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05CFE50481452A03DF02808AA2EC7ED /* ServiceFlags.swift */; };
-		1BA3C3699D4A6A8105F5E205E6298B49 /* OP_INVERT.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2DB8F9EBF23BE6193A38EF05B7803 /* OP_INVERT.swift */; };
-		1BD81CA8D4AA739E737AEA6758A910E1 /* Mnemonic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3800BC0785B2221B044776F09AFCBA1A /* Mnemonic.swift */; };
-		1C9676734A71DA82F17D0EFCCAE24FE6 /* OP_CHECKSIGVERIFY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A47164345E341FFF332283756AF568 /* OP_CHECKSIGVERIFY.swift */; };
-		1DDFDC1DF6D51A6B24DA06D83A07D9D7 /* Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDFAB42F9A2FE38FB9AAD1E09F57368 /* Serialization.swift */; };
-		1E705577DC12F1FC20C9B78CE9EDC690 /* AddressType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7CF10B34418E7C5705D73BCD59D532 /* AddressType.swift */; };
-		1FEFFB0E5F20C48880374A9B067606E3 /* PaymentURI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDFD5806BFE879E3CCFCB18930EF91 /* PaymentURI.swift */; };
-		200E19BBB3BBFED418D65F916D7C2E2A /* OP_IF.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC94E2E49C7EED582536C3904533472 /* OP_IF.swift */; };
-		200EC2EC702EBEE6FAFF6523E2525E6A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3358B2DE9209236FC43BB0E7AD72C2 /* Helpers.swift */; };
-		238ED9760A24ED1B7B49E33757DD1778 /* OP_NUMEQUAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA26C57B94B1856F4C195F25E40E30A /* OP_NUMEQUAL.swift */; };
-		24D622C8BC34EB0A52DB0E9D67F9ACEA /* FilterLoadMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92167ECD72B1CA405777E7207045BCD1 /* FilterLoadMessage.swift */; };
-		25256572CF1D457A2593740420ACA2EE /* OP_RESERVED.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E2E2E3E95EA3E6268ED0F38E14939F /* OP_RESERVED.swift */; };
-		28DA94100338AC29E5539CC683E9EDA0 /* OP_RSHIFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5A254588557FF1B535C257E22A6DA /* OP_RSHIFT.swift */; };
-		2C2DE829F94E695FD23CDA84A39BEBE6 /* OP_TUCK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093C26A48CB8409D57A10CC4E1F65FA2 /* OP_TUCK.swift */; };
-		2CFC6060074598925708A3BFFE2FC4F7 /* MerkleBlockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE74B31F450A6D2A770D83CA2EEEA9 /* MerkleBlockMessage.swift */; };
-		2F8C291A1D781A55531F621F01E606C4 /* OP_BOOLOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E675989BA36F0B1684C2623069E5FF94 /* OP_BOOLOR.swift */; };
-		30E35C9BC504C0A8CA5A0DAA8DB0D9FE /* OP_2DUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B10F31FF1612EF75942E0E57400516 /* OP_2DUP.swift */; };
-		330AED450D7F147799F2AB501D8DF421 /* BitcoinKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E337D742AC416C499F764A83E45492 /* BitcoinKit-dummy.m */; };
-		34BAE199E88E6710940566F0DD44D855 /* OP_PUBKEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A65094E81E691C53BC569DE06BBBF /* OP_PUBKEY.swift */; };
-		350D79D5A243C3BE8DA0336259E85D9A /* OP_MUL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141EA9A251C916190D5C46A1ADF74B9 /* OP_MUL.swift */; };
-		35824EFFA806ADEBA722D636B688BB00 /* OP_OVER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483CF3A0FD0C5B7A9F8848243D681E2C /* OP_OVER.swift */; };
-		37EFE99285E107A9628B8AFF7EE2D600 /* OP_ROT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C72723E6CA66233B508CFAF50776BE /* OP_ROT.swift */; };
-		3A0C82CEDCA628602D5802F0D693D579 /* BlockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4E93AF514F615A9167641600E6327 /* BlockMessage.swift */; };
-		3A537D9A892D4D64B2251E8C1260D8FF /* BlockChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC008AE54A63207C14B4BFA52B8F4F45 /* BlockChain.swift */; };
-		3A7DACB322D9D76BBBC9512D7EBBD7FC /* AddressMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEA1BA276C2F988893639409D37283 /* AddressMessage.swift */; };
-		3BA4A3C681733EA5309A099264690C1E /* VersionMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A56E1314360A15DCA8C3BAB636ACA4 /* VersionMessage.swift */; };
-		3F9CB24AB61BE0EA0B2810402F199DF5 /* Pods-SimpleWallet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D9F85C32CECDF168990BF125A0892DB /* Pods-SimpleWallet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		423CE825867478B7D4B40492C4705D01 /* OP_NOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289352375B994871A7FBAD3654543186 /* OP_NOP.swift */; };
-		4281CAA6BD613EE7F80F4D33ACEFD82D /* OP_CHECKSEQUENCEVERIFY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD62B1355B6AF475C4CC51DAF46BCAC /* OP_CHECKSEQUENCEVERIFY.swift */; };
-		44BEDD043E3E0B6DBB713C7D892CEED5 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA38F994557590D33BBBB2971D88B9 /* Crypto.swift */; };
-		44D4FED42EC82F19067B00FE860F6BE2 /* OP_BOOLAND.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1487D5C4D2117EC03B510C6852E419 /* OP_BOOLAND.swift */; };
-		484269AA3240B5CB4A36A8DBBCAC4763 /* OP_2DROP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B794B0D9C050114899AB4650E96E1 /* OP_2DROP.swift */; };
-		49A0AFD6C566F32DF5658D19AE2F639E /* OP_ENDIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F742A77ACC5A3ED379C35833424A277 /* OP_ENDIF.swift */; };
-		4B18F55BE994A027A0F5A0135C202A45 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC330E75EA7CB009BE9570856ABF8A /* Peer.swift */; };
-		4CEF7A74DC4827AEDBEA832153D93306 /* Opcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D900DE31CB3B0033B57768F9DFCA0 /* Opcode.swift */; };
-		4D67FBB90478408172162ACF8AB78453 /* ScriptExecutionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE876B1665410918F86B54D2367DE1 /* ScriptExecutionContext.swift */; };
-		4F309A40582A6980C50780B3DE6991EB /* ScriptMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC8D16C3DECD0CFE47FF2F8F0A0DF7 /* ScriptMachine.swift */; };
-		5036A37BF29705CBC4FCDB0EB42CE065 /* SighashType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0EAE4FF93F238E1E14A6EDBEFC29BA /* SighashType.swift */; };
-		528E1BA4CB98BD2DE2D170A250EEB67C /* OP_AND.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDC2966240731D03B9143A9F11360E3 /* OP_AND.swift */; };
-		55EBEEE7CC7ABCE0670217087A6B05CF /* Transaction+SignatureHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532CF917148593ED791F4821DC21A5A /* Transaction+SignatureHash.swift */; };
-		5665237488AE23C1A1E9F4397B651FEC /* AddressFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A86BB303332CF5AAB91BB912CAC592 /* AddressFactory.swift */; };
-		57DB30A3E7C2EA884FB47D4594A1F17A /* OP_ELSE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515C93C69F1951F252961BFCC9D7E63E /* OP_ELSE.swift */; };
-		5868DAEFB64F5CD78FF699BE58C87077 /* OP_SIZE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14071FFCCDD652AB0191C6DF4F3608AC /* OP_SIZE.swift */; };
-		5A7F3EA8C76796A0C463385AD056654F /* VarInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803A7982798EFADFE26E3A312D04C5E5 /* VarInt.swift */; };
-		624A0A09EAEA059A82C869BC166E7932 /* OP_PICK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CC92D9889EA189A929ECA526AE17BB /* OP_PICK.swift */; };
-		62B1E2EC6E27945515960EC4427D0784 /* OP_CHECKSIG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300E369113DD9095B3303907063C53FA /* OP_CHECKSIG.swift */; };
-		631F9B352CB4622DEBE42241D0A62BB2 /* MurmurHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31888445F611740D07B62539557ABE2 /* MurmurHash.swift */; };
-		63BF281A0132B8BD08E635F2321CFB76 /* OP_LESSTHAN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D0ED8DC8E5F9FB24BDA6A63BA79F93 /* OP_LESSTHAN.swift */; };
-		648D0620E04BC240A70B33CF6BE8143B /* OP_1ADD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7621CC64B9CE7D61259907FC9E9A6 /* OP_1ADD.swift */; };
-		657EB61B48C1106C38DD26549D139247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		65E373C5273AD61C4A2E6995E1475402 /* OP_2MUL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC4CC288A13B4829B5C763698349304 /* OP_2MUL.swift */; };
-		662F9484760C205CA16F802795273CC4 /* Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58BC46E6EE13A2B98779AB57B4E1C4F /* Encoding.swift */; };
-		6E29D092533635B99200C3D894335620 /* OP_NUMNOTEQUAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD8B3D517185B3D0706D4397FA3923 /* OP_NUMNOTEQUAL.swift */; };
-		6EE6C2C49BE66FFA0834AE9F09696AC0 /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B8D5ED3115B6E17DC2B8B04774B66 /* WordList.swift */; };
-		6FE9CFA5CFB3B885899E6064A7B21669 /* OP_BIN2NUM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968CDD1D14BFE30EA52E75B972CB879 /* OP_BIN2NUM.swift */; };
-		6FF3DDCEC173FDB9A2E019D98904A18F /* OP_2DIV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFC1239EC5C7FE78A1840EC24BA9D3 /* OP_2DIV.swift */; };
-		7065302FEA1F1E8797FC83C890ECAA72 /* BlockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C02C5BB64C8E1C0DFC4720301AC2F98 /* BlockStore.swift */; };
-		70731DE4A184B0A06DBCF0381E4D7321 /* OP_NUM2BIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412BB2455CBC501D7F6CD5F093D65D13 /* OP_NUM2BIN.swift */; };
-		71952D66421A859E335CF3CE932E7A37 /* OP_GREATERTHANOREQUAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB792A7C3EFB4B069BF7119B5AD443B0 /* OP_GREATERTHANOREQUAL.swift */; };
-		72916CC3C7212CFD33FABAE675514F9F /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340DF15F945AF52A4E2DA3A4A3F826B /* PrivateKey.swift */; };
-		735F9CDC140698F1B656D2A8FAF52E7C /* OP_MIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BA15201B657AF177154FC73E59D1A /* OP_MIN.swift */; };
-		739347367EFC2F8F1B9363B7D29970D2 /* GetDataMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954584DE673C632567BF9E8B9D7729C6 /* GetDataMessage.swift */; };
-		7407450D5E584B71985FD75A0134DF16 /* OP_CAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E6E669817E1C0AA096041225091F79 /* OP_CAT.swift */; };
-		7B6776E0EF3E0D416282F886101D72CC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8567F7EE9ABB0DFAF6111181C2BF2 /* Network.swift */; };
-		7BEBF32378FF79D204CB40650B9954A3 /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F67B4FA045834D7289AC8B2BADC251C /* InventoryItem.swift */; };
-		7C8D2D19BED529ACC4A623D48C868EE1 /* OP_LSHIFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28A45374798C032DECF4DEE7EC4CC59 /* OP_LSHIFT.swift */; };
-		7FEE48AD63CF1BA9E7FFE9689157C697 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27058D313EA132A58580FAAE1258F89 /* Message.swift */; };
-		80B2AF2F0C899BFBF87D1D8DBF6DEAC9 /* UnitsAndLimits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E150BD7B6A11EBF45E2AB8FFF7394 /* UnitsAndLimits.swift */; };
-		8211F593356AEDF14F34E3942EF9CD8E /* VerackMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251E1F49363F4223DA7612BABFD6444A /* VerackMessage.swift */; };
-		827F59A957F0F070A2062E73F17CA557 /* OP_ABS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7A2E6FEFD94BE8A911CE8EC20334CD /* OP_ABS.swift */; };
-		8576216624D1D051A5B090EFC9A840D4 /* OP_DUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4ADAB1CD9FBC75095E4843AC78641 /* OP_DUP.swift */; };
-		874942F7A4C596CA59DDDF4E6CEB333A /* OP_CHECKMULTISIGVERIFY.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A090890228B342312468964B7D451 /* OP_CHECKMULTISIGVERIFY.swift */; };
-		8EF49500C7C96E481CC799B3F892108E /* OP_NOTIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168DF69C859F1638EAE77DBD74A11314 /* OP_NOTIF.swift */; };
-		8F9F49F24F10325660CAC5C341097362 /* OP_EQUAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E247551A7AB76BA450FCEBCDC38E21 /* OP_EQUAL.swift */; };
-		931C87A667BD75EA7B275F087387159E /* ScriptFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFDB9C7B85FFE9E28EEE8BBD2272B8 /* ScriptFactory.swift */; };
-		9856E358067BB371E47C6D492B7F3F6C /* OP_NOPN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B90395BB83D5299D0C68063809B2CC /* OP_NOPN.swift */; };
-		996EDD7F65D34621712A1AA623BEB695 /* InventoryMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDD23EE4D945836B160BEB16EB89212 /* InventoryMessage.swift */; };
-		99D91A2CC8E78FD0396AAB1A83522120 /* HDPrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E0953FF43BC8C1F9AF315F8675382 /* HDPrivateKey.swift */; };
-		99DEFFEC7AFCDA8E199ED6E5C9E51BB6 /* HDPublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD2D89DA5EEDDC22EAF154EA80D76C /* HDPublicKey.swift */; };
-		9B0106DD8E10669288A26475DA5D5EBF /* OP_CHECKLOCKTIMEVERIFY.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBFE6307D36E6DF0774336D47D2173C /* OP_CHECKLOCKTIMEVERIFY.swift */; };
-		9E7AAF02F6EA22F04449E55DE95A57AC /* OP_CHECKMULTISIG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B3C11D5D2DEA56ADB843DC90F43E28 /* OP_CHECKMULTISIG.swift */; };
-		A189E7A90F06FC1FA1902321A2A70A38 /* OP_MAX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0A799F7627907865D32477A5B18EF /* OP_MAX.swift */; };
-		A209FBD00334341E1BE3BF1ABD647F42 /* OP_NOT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D97D924B7E3D6D909D0D80B992D875 /* OP_NOT.swift */; };
-		A248247463B7E941F5EE418327BC4BB0 /* TransactionOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2321BE40D651D782A5C4F6D2B87D8 /* TransactionOutput.swift */; };
-		A579AD83EEA6697D35C14CC4C4C7947A /* ByteStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E93EAB5563653DA028C39B4D992163 /* ByteStream.swift */; };
-		A655A6EBC14970F1257E54EC8D824BB4 /* NetworkAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AAC5B5D31B3683C476EACEA0218D10 /* NetworkAddress.swift */; };
-		A815907A6ABD84F67C42EB06F803D671 /* OP_2ROT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F3574AF04548C1035D7768103C4A9 /* OP_2ROT.swift */; };
-		A967960EE4C1C1AF8A3FC3555BABDC58 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C571FBE006594F28A20BFD4D9EA4F06D /* Keychain.swift */; };
-		A9BE4187A647DA165CCE2642E05D1822 /* OP_EQUALVERIFY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874AA74CB0B4A0218DF4235A009C095 /* OP_EQUALVERIFY.swift */; };
-		AB541932B83EC3D17E71D186070D6AE2 /* ScriptChunkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48934CA59DC62439838072DAE0CE672 /* ScriptChunkHelper.swift */; };
-		AC7733DD69CFC011F124552D348431D2 /* OP_1SUB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25D03E25129365959166CD52BBD150F /* OP_1SUB.swift */; };
-		AE00F430A8320BB3A965105DADF2541D /* OP_HASH160.swift in Sources */ = {isa = PBXBuildFile; fileRef = D125A289D300AA5B42AF21239ED63298 /* OP_HASH160.swift */; };
-		AE2B8B06BD724D8F27D39E5FD76E2CA9 /* OP_DEPTH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F25FCCD1DE77F4751BE0DCD076C19B /* OP_DEPTH.swift */; };
-		B04B0EE7716D596CE72F73FC6AD3FECA /* OP_RESERVED1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B586F18CB5B608D1D9BDBF24321C12BE /* OP_RESERVED1.swift */; };
-		B0C82C6B23680D216F444646381DC0AE /* OP_RIPEMD160.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C050F0BFE3E3148DBC06B49CE14A42 /* OP_RIPEMD160.swift */; };
-		B389FE445D9AE2F732B140A72A5D2979 /* OP_VERIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8130AE26F3716F81F828292E4636CF /* OP_VERIF.swift */; };
-		B590C811C34510A5BD6751DD11879FFE /* BloomFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0C2B372DB6D4C963198AF3F845C17 /* BloomFilter.swift */; };
-		B7FDF6080DBD999DE5AA186734B0A941 /* OP_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0856FFA8A5F4D78DA2DDA16265C2CF81 /* OP_0.swift */; };
-		BC291B303162AE9B62F72370DF907C8D /* OP_XOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050223EE93671B48FED0BB74B34B4E9 /* OP_XOR.swift */; };
-		BD4C4BBE80993A61BF03D8BDDCBBAA3B /* HDWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EF5BE39108C7F3ECC38BE0382C2EC /* HDWallet.swift */; };
-		BDA750A5542A5D826A35B1BE6A69574A /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CD611D906495CD2038AABC9A7968D0 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0768C905AD0340760B9D29BA6FC2F59 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6D73A8063C4EDF6599008C62B145CD /* Address.swift */; };
-		C3415E4B266B908811E60D6DCC6A016E /* TransactionSignatureSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854AAF910CB77C6383AEDC6034BD5F3 /* TransactionSignatureSerializer.swift */; };
-		C4823E1C977A62F0A103213409EFEF0F /* TransactionOutPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D2396BDF7DC35C817E8FE21C5F6155 /* TransactionOutPoint.swift */; };
-		C54007800D45EF269293A3C81A1B5C84 /* PeerGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E86B696E4398BD33031C2A6045CEC /* PeerGroup.swift */; };
-		C79EFC5ABF1D3EB4ED9CCC2EFC755EA8 /* UnspentTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537EE957FCFF432778BC0999F8EA9579 /* UnspentTransaction.swift */; };
-		C8B21A1AEA12476F4AB2679E35F02ACA /* OP_VER.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66AF2AB0FBB2C51494310278A3F3446 /* OP_VER.swift */; };
-		C979AA503813A0AA60F0BE7C6A88AD91 /* OP_MOD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080297CF7F3485BD31ED0C172554F8C /* OP_MOD.swift */; };
-		C9D62578F00B4C334636CF68025ABB50 /* HDKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBCEDCDA9A264751AF1E31C2F39431A /* HDKeychain.swift */; };
-		CA48039CFB2E878514C728CD9DD4E348 /* OP_VERIFY.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F1B8D60902528BDD63823DE88699F1 /* OP_VERIFY.swift */; };
-		CB767502DB4A1D02E606E22D37AFC10C /* OP_NEGATE.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67DC52E6A8EEB8509D3697CAA548840 /* OP_NEGATE.swift */; };
-		CB98DF1FE5F10EFE7280A4CABA4DB11B /* OP_PUSHDATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03286FDCE871C140642129B5606FF80E /* OP_PUSHDATA.swift */; };
-		CC1EAF52B44D8F0508017E8FEB09BBE5 /* OP_SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB214471F31DE255EE47121E466100D7 /* OP_SHA256.swift */; };
-		CDD0EB0C8E71E78EB3237C1ADDBDEAA5 /* OP_0NOTEQUAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D126AE92F1B90CF2FC39CFF52E98BA2 /* OP_0NOTEQUAL.swift */; };
-		CE452584434A71C2751BA4339CEBC124 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70396F7D68838506EB0A99414DCED427 /* Script.swift */; };
-		D072C7E257EC8680EAC0F96F8B00CC19 /* OP_SWAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10BC834E0402AD82F5A97610304BDF /* OP_SWAP.swift */; };
-		D698E590557ABB3378CFD1AB57466617 /* PingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDDC10DB0FD116363FD8DBFAE705B66 /* PingMessage.swift */; };
-		D74601AE77717D14C591AA52EF48549C /* OP_ADD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4817C29461BE58531455255BE14C9E1 /* OP_ADD.swift */; };
-		D794C3AF31499C00591AF9AD75791593 /* OP_GREATERTHAN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CC292FECFA7D0DAE47F5B87756647D /* OP_GREATERTHAN.swift */; };
-		D823270043210DD356225D7700FAF3E4 /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D3A9EAE8D54007F052B67D7D385729 /* KeychainAccess-dummy.m */; };
-		D8F7F0D6716D280E292CDA95D448C376 /* TransactionWitness.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC844FC8C9EC1C95AA32197C6E28B7C9 /* TransactionWitness.swift */; };
-		D96B92D0495D5BAB25E3A5F1FC7FBE5C /* RejectMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3CA22D959EEB75121679269DFDD1FB /* RejectMessage.swift */; };
-		DA6BC912700007DEFEE3EB9D90854821 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		DB49ACD9C3BF985EE37EA0C738273385 /* OP_2SWAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6BFAC0994C086981926485AE7DA3E /* OP_2SWAP.swift */; };
-		DBB02F086AA1D865C696EE14C8626C59 /* PongMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D0201699095A23E698B429F1DED7CD /* PongMessage.swift */; };
-		DCEAFF872DFB4ED0BD19B8407475F15C /* OP_ROLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB374E615B8CD557CB2E81E50B708600 /* OP_ROLL.swift */; };
-		DE15430ADF0A16DCF6FD6A4813D28F56 /* BitcoinKitPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 756D0976A20DD408AAA40A58F91E3CB9 /* BitcoinKitPrivate.m */; };
-		DE86972AEB652E9EDD324839A3752925 /* OP_SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7E738D39F1B4D956E391764A618DC /* OP_SHA1.swift */; };
-		E0B094A3C7A5963ED3C2BA87D4049F1F /* OP_DROP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA5421F6ACE7A6F142701472C94383 /* OP_DROP.swift */; };
-		E0F9BC76F085439A9EF92E61B71CF49F /* OP_OR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042755311C28FD1D04104E723C86D80 /* OP_OR.swift */; };
-		E2AD1E5884A7B4AC793D73351D5B4CFE /* OP_TOTALSTACK.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBABC3CAEAD609DE0AA63F8F4AF0EE0 /* OP_TOTALSTACK.swift */; };
-		E2F0E23E959A1F05A6653C33F8DA6AAE /* OP_NUMEQUALVERIFY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41451BADA18FBE608143F6F74E06064C /* OP_NUMEQUALVERIFY.swift */; };
-		E38D457187C9EBCEC3A5973CD4CFE2A6 /* UnsignedTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C6D48FEB24678DD85E13B2E5358DE2 /* UnsignedTransaction.swift */; };
-		E420ECE81E8061BD9CD3798D0A08EFA1 /* OP_SUB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB09415AF491D580C2AF59A404E833A /* OP_SUB.swift */; };
-		E4AB5B1865C7B737245709879605E087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		E577617F62D5EF2D7561EEE6D861D0A2 /* BigNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01754B467D6384544AB23A36D5E00CD /* BigNumber.swift */; };
-		E6AE858C2DC568C93AF7142F293DB067 /* OP_IFDUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA4447F8CB57F29067B38794B9F5F39 /* OP_IFDUP.swift */; };
-		E6BE755C09530372E4CC032BBD4EA1A1 /* BitcoinKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDDD744E48A3B30F0DC5D87E76727FD /* BitcoinKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E71DB30D451DE0A4591EE3443CEF334B /* OP_LESSTHANOREQUAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327CB631DB509B69852DFFA762F622F /* OP_LESSTHANOREQUAL.swift */; };
-		E8277F439BEF7CDDA7B8FF4781F812F3 /* OP_FROMALTSTACK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F85A1B3C0D9F54E9D3FA79A3B29F9 /* OP_FROMALTSTACK.swift */; };
-		E8C02A2D8EABB80F93226D49273B4E91 /* VarString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B4180D1DCE1FE00A7B1C58F5099A6 /* VarString.swift */; };
-		ED797CC34FDA9C63E8EBD4E429542D30 /* OP_1NEGATE.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E8A8513010E5FB6A0D601B1C98ACF /* OP_1NEGATE.swift */; };
-		EDC397F87AC4F10AE5C63DB896A87DC1 /* OP_HASH256.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B960785DFFC62DCA853CCCC4433CF5 /* OP_HASH256.swift */; };
-		EF261978F8F1C2F8E86AE953853DF106 /* OpCodeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8900F977A7BC50C0638C5A875E91408E /* OpCodeProtocol.swift */; };
-		F5F7C6B461A04BE0ABE00B5F35E1C5AE /* OP_DIV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0FC695C5024DE81788BD75FF3E6B6D /* OP_DIV.swift */; };
-		F794285CA02D3CEECE47A17EA2E29E45 /* Pods-SimpleWallet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F7C1D22351B5E75577B890C3118A1 /* Pods-SimpleWallet-dummy.m */; };
-		F81386354127921C7FB60231DFC0A7EC /* ScriptChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13806A2894319337DD03FC97DDEBE88E /* ScriptChunk.swift */; };
-		F83603933779A89D52B953D7084D1F5E /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C1A93F64D283B2667F9729526EF22 /* Transaction.swift */; };
-		F891EFC69C80321E8FFB2BCA27DB7A91 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AA6E215B0CED58E8A33C8B347E6197 /* PublicKey.swift */; };
-		F8BE7BF244315F2BA8E5CC6610F663A6 /* OpCodeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA86FDDCC60622729E65B2E774B392 /* OpCodeFactory.swift */; };
-		F90844C3669A685B52F0F2AA86572DFF /* OP_2OVER.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA51749B9D6A622F247130C67EFC97C4 /* OP_2OVER.swift */; };
-		FA1CB80EE6842039B1472266A41D084D /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB43F3BE29BCCC0111812444310D666A /* Wallet.swift */; };
-		FBD8F37B15E85239D2EE11D00F7A89EA /* OP_VERNOTIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBAD31EF98A6782B793DF59DC2251A6 /* OP_VERNOTIF.swift */; };
-		FC7E71959F25CCDEEBA59F7D5BB947CA /* OP_INVALIDOPCODE.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E552A9AA7A10C51CAE1C6C378E21C /* OP_INVALIDOPCODE.swift */; };
-		FCE6F7F479D1EAF9FDDF3DDB98021F17 /* OP_RETURN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB226BB4E02495B6A7D5DF43CE703C /* OP_RETURN.swift */; };
-		FD4E7D5D8DEAF3316CB528ED5B310805 /* OP_NIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3EAA5104D430E82D254451BB92E2C6 /* OP_NIP.swift */; };
+		08DC88BBE02BD01DEC15096A16182BFA /* OP_DEPTH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F25FCCD1DE77F4751BE0DCD076C19B /* OP_DEPTH.swift */; };
+		090BF516CDF70BF8D909371E39A868FC /* Opcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37D900DE31CB3B0033B57768F9DFCA0 /* Opcode.swift */; };
+		0B0F018CB2949D00DEF0F0CCB9D0FB66 /* AddressType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7CF10B34418E7C5705D73BCD59D532 /* AddressType.swift */; };
+		0CD316142546DC64F5A134CC75494868 /* BitcoinKitPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 574CB88EE90E3A18B7DEEE0182507093 /* BitcoinKitPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1111183EAE2D29BE91BF7A505D418961 /* OP_OVER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483CF3A0FD0C5B7A9F8848243D681E2C /* OP_OVER.swift */; };
+		1411B14C52E3CD4CFE323D180AAE3F94 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AC330E75EA7CB009BE9570856ABF8A /* Peer.swift */; };
+		183E75A6545D3BC069C6946F7B093A77 /* OP_SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7E738D39F1B4D956E391764A618DC /* OP_SHA1.swift */; };
+		18ED446CB2DA7F8CD0E25F62F27EE7D2 /* MerkleBlockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE74B31F450A6D2A770D83CA2EEEA9 /* MerkleBlockMessage.swift */; };
+		192924F37EFFAE11CACB245FA1DF0375 /* OP_HASH160.swift in Sources */ = {isa = PBXBuildFile; fileRef = D125A289D300AA5B42AF21239ED63298 /* OP_HASH160.swift */; };
+		1C7AEB5DDE7A4CEF99F2275AC2B0F1BD /* TransactionOutPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D2396BDF7DC35C817E8FE21C5F6155 /* TransactionOutPoint.swift */; };
+		1D36ADE9895898876835FE016B50EF7D /* OP_EQUALVERIFY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2874AA74CB0B4A0218DF4235A009C095 /* OP_EQUALVERIFY.swift */; };
+		1DDBC580858BEA1D552DC8011D027534 /* OP_CHECKSIG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300E369113DD9095B3303907063C53FA /* OP_CHECKSIG.swift */; };
+		1F9108A6132A54A038804DAD7C6309F0 /* OP_MUL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141EA9A251C916190D5C46A1ADF74B9 /* OP_MUL.swift */; };
+		2037ED14ADD06F8E192DD8B4B51722AD /* OP_BOOLOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E675989BA36F0B1684C2623069E5FF94 /* OP_BOOLOR.swift */; };
+		2173F675AC13B15F9F50AB8F97F14EF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		21EF630AB4C7BA286541E6D0FDEB38FC /* TransactionWitness.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC844FC8C9EC1C95AA32197C6E28B7C9 /* TransactionWitness.swift */; };
+		2315431E3DF0A93FA3E7710646AE9042 /* GetBlocksMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873596364170D205A80E8CD8BD704E94 /* GetBlocksMessage.swift */; };
+		23D80AA1DD0FBEB1FC6388908994C1CF /* BigNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01754B467D6384544AB23A36D5E00CD /* BigNumber.swift */; };
+		241E23F0A28ECAD70BEAB8C8BB7A7335 /* OP_2DUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B10F31FF1612EF75942E0E57400516 /* OP_2DUP.swift */; };
+		24F172D89E83F1E8FDA1DF8D6FF0A8F5 /* OP_NOP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289352375B994871A7FBAD3654543186 /* OP_NOP.swift */; };
+		274833CFCC9A239B052BC2577E5D2F2C /* OP_CHECKLOCKTIMEVERIFY.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBFE6307D36E6DF0774336D47D2173C /* OP_CHECKLOCKTIMEVERIFY.swift */; };
+		2A013A1307A7A8C59DF63BAAF94EA68D /* OP_CODESEPARATOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6C6DA6A48D66ECECF2D35DF3683893 /* OP_CODESEPARATOR.swift */; };
+		2B51D8291AACDA5D6FD55DC9106E6B20 /* OP_CHECKSEQUENCEVERIFY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD62B1355B6AF475C4CC51DAF46BCAC /* OP_CHECKSEQUENCEVERIFY.swift */; };
+		2C9502FB6CFE170313377F2A3D98EFB8 /* OP_RESERVED.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E2E2E3E95EA3E6268ED0F38E14939F /* OP_RESERVED.swift */; };
+		31039F1A79EFD94B3066F5E42DA138FC /* BitcoinKitPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 756D0976A20DD408AAA40A58F91E3CB9 /* BitcoinKitPrivate.m */; };
+		343E89098688BF67410ACC0D2C77E426 /* OpCodeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA86FDDCC60622729E65B2E774B392 /* OpCodeFactory.swift */; };
+		3490BD06EACFE0742FFCA83F5CD718DA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27058D313EA132A58580FAAE1258F89 /* Message.swift */; };
+		35D3070FDBEFCFDD46CF7D92D8B59190 /* OP_NIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3EAA5104D430E82D254451BB92E2C6 /* OP_NIP.swift */; };
+		3688CCA06F4F84AB37685D2AE5EF0825 /* OP_VERIFY.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F1B8D60902528BDD63823DE88699F1 /* OP_VERIFY.swift */; };
+		38AFC806FC577E7B41EC9B240983DD65 /* OP_1SUB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25D03E25129365959166CD52BBD150F /* OP_1SUB.swift */; };
+		3A56B8DDD2DD8289607D35CF42CF92DC /* OP_DIV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0FC695C5024DE81788BD75FF3E6B6D /* OP_DIV.swift */; };
+		3AEBE5A2360CA44571D671BD269AC4CF /* BlockMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4E93AF514F615A9167641600E6327 /* BlockMessage.swift */; };
+		3B182B3401DFC0E3F0CEF141E3EF9541 /* OP_NOPN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B90395BB83D5299D0C68063809B2CC /* OP_NOPN.swift */; };
+		3E5CBC83A77A553D5BAFEFCBF7A04D0B /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6D73A8063C4EDF6599008C62B145CD /* Address.swift */; };
+		4086063E44D6A26E5123CA03A4DF9940 /* FilterLoadMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92167ECD72B1CA405777E7207045BCD1 /* FilterLoadMessage.swift */; };
+		44801B903E66726C8AEFFB2486882F35 /* OP_NUMNOTEQUAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD8B3D517185B3D0706D4397FA3923 /* OP_NUMNOTEQUAL.swift */; };
+		4565031E0304574C7A466B62E73E7478 /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CD611D906495CD2038AABC9A7968D0 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4729E358D9FB6A0B9CA77383114F1EA3 /* OP_1ADD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D7621CC64B9CE7D61259907FC9E9A6 /* OP_1ADD.swift */; };
+		472A7C8935A41CB873D5ECBC38DDFE60 /* OP_0NOTEQUAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D126AE92F1B90CF2FC39CFF52E98BA2 /* OP_0NOTEQUAL.swift */; };
+		4AE8093F8C7C69ACFCDFA17CEF3CA929 /* OP_2DIV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFC1239EC5C7FE78A1840EC24BA9D3 /* OP_2DIV.swift */; };
+		4C98A3866FD37626B2EF26DAEB45969B /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F67B4FA045834D7289AC8B2BADC251C /* InventoryItem.swift */; };
+		51818D435F9F22F5987C36C7CD33A9CB /* OP_FROMALTSTACK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6F85A1B3C0D9F54E9D3FA79A3B29F9 /* OP_FROMALTSTACK.swift */; };
+		51F6E7CF554BF043DF4E6387EC8587BB /* UnspentTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537EE957FCFF432778BC0999F8EA9579 /* UnspentTransaction.swift */; };
+		53F89FB406004253B447D1B94C0FAF45 /* ScriptChunkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48934CA59DC62439838072DAE0CE672 /* ScriptChunkHelper.swift */; };
+		547FD7567BC36CD386D4014CF2E24F88 /* OP_CHECKMULTISIGVERIFY.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26A090890228B342312468964B7D451 /* OP_CHECKMULTISIGVERIFY.swift */; };
+		55257834FB7806E3DAE667FEABB8979B /* OP_GREATERTHAN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CC292FECFA7D0DAE47F5B87756647D /* OP_GREATERTHAN.swift */; };
+		562108714E01022E3016902CD7930B55 /* VarString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B4180D1DCE1FE00A7B1C58F5099A6 /* VarString.swift */; };
+		5680A62EBE7CB891E05F1117D2347EA7 /* HDPrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E0953FF43BC8C1F9AF315F8675382 /* HDPrivateKey.swift */; };
+		588A8E8E2717A87BC08610AF2059525E /* PingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDDC10DB0FD116363FD8DBFAE705B66 /* PingMessage.swift */; };
+		58AC37F32721580785CB6773E6A49828 /* OP_SIZE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14071FFCCDD652AB0191C6DF4F3608AC /* OP_SIZE.swift */; };
+		58BEDB525E85A8A4830CB1E8A55F16D3 /* BlockChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC008AE54A63207C14B4BFA52B8F4F45 /* BlockChain.swift */; };
+		5AE0FCE6849A72DC141C7DCBDA9DE079 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8567F7EE9ABB0DFAF6111181C2BF2 /* Network.swift */; };
+		5C671D2638C99C5C822DAC5757D628ED /* OP_PUSHDATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03286FDCE871C140642129B5606FF80E /* OP_PUSHDATA.swift */; };
+		5E870C46E55465C48C65F758B80CCC28 /* OP_SUB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB09415AF491D580C2AF59A404E833A /* OP_SUB.swift */; };
+		61702068158B1DC8DF4CB4E352ECDA06 /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B8D5ED3115B6E17DC2B8B04774B66 /* WordList.swift */; };
+		6477139CDDC831F58F2B46CD550B33AC /* OP_RESERVED1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B586F18CB5B608D1D9BDBF24321C12BE /* OP_RESERVED1.swift */; };
+		65588EDAE42AE4B40474BA18FE581172 /* AddressFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A86BB303332CF5AAB91BB912CAC592 /* AddressFactory.swift */; };
+		680B1667171173EC200CAD158964CA34 /* OP_IF.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC94E2E49C7EED582536C3904533472 /* OP_IF.swift */; };
+		6A27BE2074380470A8A617AFC069B55D /* MurmurHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31888445F611740D07B62539557ABE2 /* MurmurHash.swift */; };
+		6A485F47A2C961B61EF818B380CE8397 /* OP_CHECKMULTISIG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B3C11D5D2DEA56ADB843DC90F43E28 /* OP_CHECKMULTISIG.swift */; };
+		6C0964AC49414C09766ADFDD92D83133 /* OP_2DROP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B794B0D9C050114899AB4650E96E1 /* OP_2DROP.swift */; };
+		6C7C52045A92A58E4D3DD54CE7F63BC3 /* OP_DUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4ADAB1CD9FBC75095E4843AC78641 /* OP_DUP.swift */; };
+		6D165E987617F74D939222B8B7498CA5 /* TransactionOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2321BE40D651D782A5C4F6D2B87D8 /* TransactionOutput.swift */; };
+		6F600E3B75B0D8683B50009CDAE4630D /* VersionByte.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5EEF279591BB8CFA5E99E9254ABA1E /* VersionByte.swift */; };
+		6FF051A07C3438E3B05C88E30EDA193B /* OP_RESERVED2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C360E25BE072F1F362B06AF5ADF4896C /* OP_RESERVED2.swift */; };
+		77635461B0C8BA55C742373C090308F9 /* SighashType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0EAE4FF93F238E1E14A6EDBEFC29BA /* SighashType.swift */; };
+		79657BA5E222AC5BD48BF88009274987 /* OP_LSHIFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28A45374798C032DECF4DEE7EC4CC59 /* OP_LSHIFT.swift */; };
+		7988A1BE33E7F6FDB16E5B0C5DB9CB17 /* PongMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D0201699095A23E698B429F1DED7CD /* PongMessage.swift */; };
+		7B389431DF72DE53528B66814DB8C474 /* OP_SWAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10BC834E0402AD82F5A97610304BDF /* OP_SWAP.swift */; };
+		7D0B6341EA9DAD710FA1DBFB714BDF3B /* PeerGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E86B696E4398BD33031C2A6045CEC /* PeerGroup.swift */; };
+		7D2486558C4FB273856FFFAB4865E267 /* OP_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0856FFA8A5F4D78DA2DDA16265C2CF81 /* OP_0.swift */; };
+		7FD1C9171DE80CDCBE2C974D9EE0991A /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D3A9EAE8D54007F052B67D7D385729 /* KeychainAccess-dummy.m */; };
+		80CA27BF8C8B2297B163F5ACD8426A91 /* OP_NEGATE.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67DC52E6A8EEB8509D3697CAA548840 /* OP_NEGATE.swift */; };
+		8186CB303720416C816423C90549E307 /* OP_LESSTHAN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D0ED8DC8E5F9FB24BDA6A63BA79F93 /* OP_LESSTHAN.swift */; };
+		8A8774C00DC44380C574081E2E06FC07 /* BlockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C02C5BB64C8E1C0DFC4720301AC2F98 /* BlockStore.swift */; };
+		8AC143A964BAE7324B37934FFDAD0128 /* OP_2OVER.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA51749B9D6A622F247130C67EFC97C4 /* OP_2OVER.swift */; };
+		8AE83FB37B0E7C9DACB96738F20B183B /* OP_1NEGATE.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E8A8513010E5FB6A0D601B1C98ACF /* OP_1NEGATE.swift */; };
+		8E2CFE5A240D9468E15018F0B874849D /* MockKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B368393FE79C71BB3ED0F638FF479D09 /* MockKey.swift */; };
+		8ED6816DA7E3F5A644D4F034A4D3E05B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C1A93F64D283B2667F9729526EF22 /* Transaction.swift */; };
+		9114CAE6E1675C1F638C58FA588C77B2 /* HDKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBCEDCDA9A264751AF1E31C2F39431A /* HDKeychain.swift */; };
+		91C0C34D2873BCD2273CDD4C9519BC6D /* OP_CHECKSIGVERIFY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A47164345E341FFF332283756AF568 /* OP_CHECKSIGVERIFY.swift */; };
+		928B8A67B2DF29ACD496D3A4062FFF2E /* OP_IFDUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA4447F8CB57F29067B38794B9F5F39 /* OP_IFDUP.swift */; };
+		938AF431A7579958DDCEED8512B2D6F0 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB43F3BE29BCCC0111812444310D666A /* Wallet.swift */; };
+		960181EFAEE3D93C2BF2533A0D652D1D /* OP_GREATERTHANOREQUAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB792A7C3EFB4B069BF7119B5AD443B0 /* OP_GREATERTHANOREQUAL.swift */; };
+		963FCF5A462E5D1B2880B31C43BBC81D /* OP_RIPEMD160.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C050F0BFE3E3148DBC06B49CE14A42 /* OP_RIPEMD160.swift */; };
+		9705A546BB68347969427450DBD4EE4B /* OP_RSHIFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5A254588557FF1B535C257E22A6DA /* OP_RSHIFT.swift */; };
+		97FD1B6CF3703E1BAEB1DF195DABA6B8 /* ScriptChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13806A2894319337DD03FC97DDEBE88E /* ScriptChunk.swift */; };
+		98861A27B0C088AFF5AC1251FAC52905 /* BloomFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0C2B372DB6D4C963198AF3F845C17 /* BloomFilter.swift */; };
+		99C14A35316D48172F9308CE0CCFEBAE /* OP_VERIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8130AE26F3716F81F828292E4636CF /* OP_VERIF.swift */; };
+		9C5D6767EF9DCDF0DFC87997EB889D50 /* VerackMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251E1F49363F4223DA7612BABFD6444A /* VerackMessage.swift */; };
+		9E0FC76D60BA9048D31705C08FCAB6D1 /* OP_ROLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB374E615B8CD557CB2E81E50B708600 /* OP_ROLL.swift */; };
+		9F23772F4666AB20496030DC802A16AB /* OP_OR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042755311C28FD1D04104E723C86D80 /* OP_OR.swift */; };
+		A0A57B0EC615748BE83BC79D0C27E62A /* OP_XOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050223EE93671B48FED0BB74B34B4E9 /* OP_XOR.swift */; };
+		A1CF1F5770728DECC38B5804E1F25480 /* Pods-SimpleWallet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F7C1D22351B5E75577B890C3118A1 /* Pods-SimpleWallet-dummy.m */; };
+		A23C3E60EDB34A89F9F2A78964815795 /* OP_BIN2NUM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968CDD1D14BFE30EA52E75B972CB879 /* OP_BIN2NUM.swift */; };
+		A4038257936FE644E5AE34288610D021 /* OP_HASH256.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B960785DFFC62DCA853CCCC4433CF5 /* OP_HASH256.swift */; };
+		A847C182D044F960D6364890C570C9DC /* ByteStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E93EAB5563653DA028C39B4D992163 /* ByteStream.swift */; };
+		A8FC628BC39A85B021B33CD0EDF94E06 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C571FBE006594F28A20BFD4D9EA4F06D /* Keychain.swift */; };
+		AC4DA3DED4EDDCA48A87C79EAAE3FC13 /* HDPublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD2D89DA5EEDDC22EAF154EA80D76C /* HDPublicKey.swift */; };
+		ADF8CEDD85244312D666847BF0819EBD /* OP_NUMEQUAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA26C57B94B1856F4C195F25E40E30A /* OP_NUMEQUAL.swift */; };
+		B0D334E5816E61F79A69BE62754CC559 /* ScriptExecutionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE876B1665410918F86B54D2367DE1 /* ScriptExecutionContext.swift */; };
+		B10E6FDEFD816C19E0D213D807C668B8 /* OP_NOTIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168DF69C859F1638EAE77DBD74A11314 /* OP_NOTIF.swift */; };
+		B161B29A846C364DF2A1C431B6570715 /* Pods-SimpleWallet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D9F85C32CECDF168990BF125A0892DB /* Pods-SimpleWallet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1F5FC45C33D42432312DE137EB78AEC /* OP_TUCK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093C26A48CB8409D57A10CC4E1F65FA2 /* OP_TUCK.swift */; };
+		B2284A9D536AE307E7BCEB0213C9640D /* OP_NUM2BIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412BB2455CBC501D7F6CD5F093D65D13 /* OP_NUM2BIN.swift */; };
+		B22AA6974B3D1AD1883910B083C2990B /* OP_VERNOTIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBAD31EF98A6782B793DF59DC2251A6 /* OP_VERNOTIF.swift */; };
+		B2C6188165D8518E1B382AFD5E7ADE16 /* OP_NOT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D97D924B7E3D6D909D0D80B992D875 /* OP_NOT.swift */; };
+		B3309EB24597828931E6F52A092241F0 /* OP_MOD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080297CF7F3485BD31ED0C172554F8C /* OP_MOD.swift */; };
+		B40A17A593910A5C20F83F98B998B10B /* OP_ABS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7A2E6FEFD94BE8A911CE8EC20334CD /* OP_ABS.swift */; };
+		B85C1B9F62121B163D3F49DA053E333F /* OP_ROT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C72723E6CA66233B508CFAF50776BE /* OP_ROT.swift */; };
+		B8788882AB01AC43E337FF682A176A22 /* Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDFAB42F9A2FE38FB9AAD1E09F57368 /* Serialization.swift */; };
+		B9A6DAD5FB8DFF4FBD00B38689980858 /* OP_PUBKEYHASH.swift in Sources */ = {isa = PBXBuildFile; fileRef = C375B0AB396D7BABD20833271466801C /* OP_PUBKEYHASH.swift */; };
+		BA5A4BFB25636D0B7D8D939FD60D622F /* OP_AND.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDC2966240731D03B9143A9F11360E3 /* OP_AND.swift */; };
+		BBE5EA95C31DE080FEE500B4CA3353C2 /* OP_VER.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66AF2AB0FBB2C51494310278A3F3446 /* OP_VER.swift */; };
+		BDA8FFCE5FB713C404D530EA5EA0F675 /* ScriptFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFDB9C7B85FFE9E28EEE8BBD2272B8 /* ScriptFactory.swift */; };
+		BDBE97B303FDEFFF38950115537A0226 /* OP_MIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BA15201B657AF177154FC73E59D1A /* OP_MIN.swift */; };
+		BE256B8CA44715D97C79236ECDF7968C /* VersionMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A56E1314360A15DCA8C3BAB636ACA4 /* VersionMessage.swift */; };
+		BE3327E0ED3DDB341B56FB7F89A8C83B /* OP_PUBKEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125A65094E81E691C53BC569DE06BBBF /* OP_PUBKEY.swift */; };
+		BE6F405CB95C36372B75E47953F7F125 /* OP_PICK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CC92D9889EA189A929ECA526AE17BB /* OP_PICK.swift */; };
+		C0A9597393813F52A768D81CF7F58479 /* OP_TOTALSTACK.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBABC3CAEAD609DE0AA63F8F4AF0EE0 /* OP_TOTALSTACK.swift */; };
+		C13C544F163B84FC6F925191009D43FA /* OP_MAX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0A799F7627907865D32477A5B18EF /* OP_MAX.swift */; };
+		C18B3AB4590746776D1D54B02D80E8DD /* OP_3DUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C6137A457EB1227FD9E72695380080 /* OP_3DUP.swift */; };
+		C1FD11FB1172424541817F80660F6C59 /* ScriptMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEC8D16C3DECD0CFE47FF2F8F0A0DF7 /* ScriptMachine.swift */; };
+		C4B2B6A9AACCA965C1DA9C421883C32C /* GetDataMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954584DE673C632567BF9E8B9D7729C6 /* GetDataMessage.swift */; };
+		C4C7946B79D64839B1B47E49F7696FD1 /* TransactionSignatureSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0854AAF910CB77C6383AEDC6034BD5F3 /* TransactionSignatureSerializer.swift */; };
+		C88FB0BD7FEA312A5BD869D07FC19FE1 /* BitcoinKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E337D742AC416C499F764A83E45492 /* BitcoinKit-dummy.m */; };
+		CA01916DB92D1531AB0579A315ED6613 /* OP_LESSTHANOREQUAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327CB631DB509B69852DFFA762F622F /* OP_LESSTHANOREQUAL.swift */; };
+		CAC1AAE6EBA84B2899B0AF1A809487E0 /* TransactionInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B58C1786E2B8090A7DEC49C00194508 /* TransactionInput.swift */; };
+		CB1521CEAB8FBE8FEDA262B231126E80 /* OP_ELSE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515C93C69F1951F252961BFCC9D7E63E /* OP_ELSE.swift */; };
+		CCF465D5DDABF1680B28D0B5EF9D04C8 /* OP_RETURN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDB226BB4E02495B6A7D5DF43CE703C /* OP_RETURN.swift */; };
+		D0850D7AD62055DF83976377C9DF4443 /* OP_SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB214471F31DE255EE47121E466100D7 /* OP_SHA256.swift */; };
+		D153A0429C37073B54E0B9ED76211ACE /* Mnemonic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3800BC0785B2221B044776F09AFCBA1A /* Mnemonic.swift */; };
+		D18B6173CAE78C8B3AF25BABB7AC6D19 /* OpCodeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8900F977A7BC50C0638C5A875E91408E /* OpCodeProtocol.swift */; };
+		D311E165210CFCFE13A67A9C3C75F7FB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3358B2DE9209236FC43BB0E7AD72C2 /* Helpers.swift */; };
+		D78F2F3520D37FE01A27F3583465F9B1 /* OP_2SWAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6BFAC0994C086981926485AE7DA3E /* OP_2SWAP.swift */; };
+		D7ABC78FFBCAEA1A268B62E018D3F2F8 /* OP_ADD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4817C29461BE58531455255BE14C9E1 /* OP_ADD.swift */; };
+		D89D5028D4FDB6DBA3141B55B99C35DE /* PaymentURI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DDFD5806BFE879E3CCFCB18930EF91 /* PaymentURI.swift */; };
+		D9AF000902423B718626680284997186 /* HDWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EF5BE39108C7F3ECC38BE0382C2EC /* HDWallet.swift */; };
+		DADE41AB9929F4E374878C46D93672BB /* OP_DROP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA5421F6ACE7A6F142701472C94383 /* OP_DROP.swift */; };
+		DB6078E23D9F5C7536160168D9E198E7 /* Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58BC46E6EE13A2B98779AB57B4E1C4F /* Encoding.swift */; };
+		DB8E543A171F68212ABEA1BAC1FD90E3 /* OP_ENDIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F742A77ACC5A3ED379C35833424A277 /* OP_ENDIF.swift */; };
+		DC50DDBCA4A7FE28EA6131942D363A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DCB89F1EA18810DCB2FC0F0400B214E5 /* UnitsAndLimits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E150BD7B6A11EBF45E2AB8FFF7394 /* UnitsAndLimits.swift */; };
+		DCD8E47CAD79A99033B0715635A0A641 /* UnsignedTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C6D48FEB24678DD85E13B2E5358DE2 /* UnsignedTransaction.swift */; };
+		DF03261FA5DBCFE67B5ADF408B1E9754 /* Transaction+SignatureHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532CF917148593ED791F4821DC21A5A /* Transaction+SignatureHash.swift */; };
+		DF6F6B944CB1E0CB8D26A344C8E2C242 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAA38F994557590D33BBBB2971D88B9 /* Crypto.swift */; };
+		E290B0DD940E4F782FC37EC74D425D9E /* OP_EQUAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E247551A7AB76BA450FCEBCDC38E21 /* OP_EQUAL.swift */; };
+		E37CA561C753BACDE5B621E75304723D /* ServiceFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05CFE50481452A03DF02808AA2EC7ED /* ServiceFlags.swift */; };
+		E520AB49C61F2B4FF6E33C836B810D37 /* OP_INVALIDOPCODE.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E552A9AA7A10C51CAE1C6C378E21C /* OP_INVALIDOPCODE.swift */; };
+		E52300C4FF1639621B7970BECB98456F /* OP_N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422645691546FBC3E6823CB40FF30CD3 /* OP_N.swift */; };
+		E65AA6EF1739D90485EFD0C04A8FF7B0 /* RejectMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3CA22D959EEB75121679269DFDD1FB /* RejectMessage.swift */; };
+		E661FB26DE05EADEA09F5F93A83D6465 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AA6E215B0CED58E8A33C8B347E6197 /* PublicKey.swift */; };
+		E93EC5BBCD7813613389D4730C70ED32 /* OP_CAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E6E669817E1C0AA096041225091F79 /* OP_CAT.swift */; };
+		E9A3D802826D4B22D794D469551D61F9 /* VarInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803A7982798EFADFE26E3A312D04C5E5 /* VarInt.swift */; };
+		E9A5799863B8E71890F9C69E282505F5 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70396F7D68838506EB0A99414DCED427 /* Script.swift */; };
+		EA45AC865065C80EB3D655063F367743 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4340DF15F945AF52A4E2DA3A4A3F826B /* PrivateKey.swift */; };
+		EA98DE6A3B935BF854FE9E2E771105E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		ED30AB152EB7561F260604607CB4F880 /* NetworkAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AAC5B5D31B3683C476EACEA0218D10 /* NetworkAddress.swift */; };
+		EDEA85804ECAF9EC8E11651411637F70 /* AddressMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEA1BA276C2F988893639409D37283 /* AddressMessage.swift */; };
+		EE0B482A6A245C786674E9F59F2587A4 /* OP_2MUL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC4CC288A13B4829B5C763698349304 /* OP_2MUL.swift */; };
+		EF597ADF0599D8B38D7236AD4C5986BF /* OP_SPLIT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C7D75A2D184612F713045D111EDFD6 /* OP_SPLIT.swift */; };
+		F0BF7FDA3D39F875967D4FD16B3540EE /* OP_NUMEQUALVERIFY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41451BADA18FBE608143F6F74E06064C /* OP_NUMEQUALVERIFY.swift */; };
+		F29C1E57313504A64555825C4133AE39 /* BitcoinKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDDD744E48A3B30F0DC5D87E76727FD /* BitcoinKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4AE984997BF10FA439025F4EEB43E9D /* MockHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3381131AB175F63F129AF6873F93375 /* MockHelper.swift */; };
+		F4E631B651027F60F0CC9B88A1BE11A6 /* OP_2ROT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F3574AF04548C1035D7768103C4A9 /* OP_2ROT.swift */; };
+		F5287C598FAA3EE5DF768B9AF2F9D10C /* OP_EXAMPLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4542B51388C183FC038D854BD8F81B0F /* OP_EXAMPLE.swift */; };
+		F560B57813931422007E24A92A171C02 /* OP_INVERT.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2DB8F9EBF23BE6193A38EF05B7803 /* OP_INVERT.swift */; };
+		FBBFB3779E07899B3135CCF4256B335E /* OP_BOOLAND.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1487D5C4D2117EC03B510C6852E419 /* OP_BOOLAND.swift */; };
+		FEA5B942F8D2F40B9423067DADD00D57 /* OP_WITHIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B12DDACCDE9A7DBDE3A6579C07E83 /* OP_WITHIN.swift */; };
+		FEBDF0AAAB80788E05967F713BAF7780 /* InventoryMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDD23EE4D945836B160BEB16EB89212 /* InventoryMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7D6E26806E1858D0836EA5ABE190466A /* PBXContainerItemProxy */ = {
+		6A55CE93E048A34CFB673CC2780A8088 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1184E125899C7DA74E56B459ED771F8C;
-			remoteInfo = BitcoinKit;
-		};
-		A51B0D8BFB04B23BBD406E6210469841 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8905DB6521F8FDC34752B69DEE3FDEB7;
+			remoteGlobalIDString = 1630C0AC0CCE2704C3F517D1DFD56586;
 			remoteInfo = KeychainAccess;
+		};
+		B7295694488645097D66F55EC7D4A555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB808E86A1E5C0CC747C01265CD139D;
+			remoteInfo = BitcoinKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -388,27 +388,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2DDC844C06D46A3907C42C9964BC7434 /* Frameworks */ = {
+		0366D979832FA96B0EBFA8B35C1352E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4AB5B1865C7B737245709879605E087 /* Foundation.framework in Frameworks */,
+				2173F675AC13B15F9F50AB8F97F14EF0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30DED3B1268FE78B3F1582399A6F5C2B /* Frameworks */ = {
+		6B0780790C0FE7F07CCDDEF8CACD3121 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA6BC912700007DEFEE3EB9D90854821 /* Foundation.framework in Frameworks */,
+				DC50DDBCA4A7FE28EA6131942D363A18 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC61BD282747B3A5D5B35C8CB0B5E589 /* Frameworks */ = {
+		B7B8611912E810D0291F2A226F621073 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				657EB61B48C1106C38DD26549D139247 /* Foundation.framework in Frameworks */,
+				EA98DE6A3B935BF854FE9E2E771105E0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,58 +697,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6FFCEB81E18A88007B78F2945453F769 /* Headers */ = {
+		3DCB50E1EAE76A10559C48D06F53E0EE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F9CB24AB61BE0EA0B2810402F199DF5 /* Pods-SimpleWallet-umbrella.h in Headers */,
+				4565031E0304574C7A466B62E73E7478 /* KeychainAccess-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93DE0E803396B824DE9F75CA3683CEC3 /* Headers */ = {
+		84735DB31B3C0D4D377E1AF2379C493C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDA750A5542A5D826A35B1BE6A69574A /* KeychainAccess-umbrella.h in Headers */,
+				B161B29A846C364DF2A1C431B6570715 /* Pods-SimpleWallet-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EED2B6FCE92157B4E1A198347E7E33FC /* Headers */ = {
+		ED2CBAFF3922B98F85EC1B28A6DB55B9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6BE755C09530372E4CC032BBD4EA1A1 /* BitcoinKit.h in Headers */,
-				1A6C895768D5E690646308765A8BED96 /* BitcoinKitPrivate.h in Headers */,
+				F29C1E57313504A64555825C4133AE39 /* BitcoinKit.h in Headers */,
+				0CD316142546DC64F5A134CC75494868 /* BitcoinKitPrivate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1184E125899C7DA74E56B459ED771F8C /* BitcoinKit */ = {
+		1630C0AC0CCE2704C3F517D1DFD56586 /* KeychainAccess */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3951888244A4F787E411A46A53EF5A03 /* Build configuration list for PBXNativeTarget "BitcoinKit" */;
+			buildConfigurationList = 4BC26EB508840B6B2446C27E690E60BC /* Build configuration list for PBXNativeTarget "KeychainAccess" */;
 			buildPhases = (
-				07922B3F0AA52D2D9773495B42093C04 /* Sources */,
-				BC61BD282747B3A5D5B35C8CB0B5E589 /* Frameworks */,
-				EED2B6FCE92157B4E1A198347E7E33FC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BitcoinKit;
-			productName = BitcoinKit;
-			productReference = E40BCFC15303816CB5A3237A41BABD22 /* BitcoinKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8905DB6521F8FDC34752B69DEE3FDEB7 /* KeychainAccess */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FA048BBEA093CDB3F69C5B36929A5AF /* Build configuration list for PBXNativeTarget "KeychainAccess" */;
-			buildPhases = (
-				D26A24617ECAE11F29337DC26BE0E14F /* Sources */,
-				2DDC844C06D46A3907C42C9964BC7434 /* Frameworks */,
-				93DE0E803396B824DE9F75CA3683CEC3 /* Headers */,
+				3DCB50E1EAE76A10559C48D06F53E0EE /* Headers */,
+				6CF23713FC2035F5BD9D246E95236685 /* Sources */,
+				0366D979832FA96B0EBFA8B35C1352E8 /* Frameworks */,
+				82731D02B1DBAC326E46F5E6E83C1130 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -759,23 +743,42 @@
 			productReference = BD66EC198A6822CE2BFD51D3654CDDC2 /* KeychainAccess.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D80FB6874B6231A136197919D8A3694B /* Pods-SimpleWallet */ = {
+		1A8E1CCF7BB2F2C8644D66C0CAADF3F5 /* Pods-SimpleWallet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CF92581F11A6B63B2E882BA2B252E38 /* Build configuration list for PBXNativeTarget "Pods-SimpleWallet" */;
+			buildConfigurationList = 5462B9389F09819807482C6B66B32B5B /* Build configuration list for PBXNativeTarget "Pods-SimpleWallet" */;
 			buildPhases = (
-				BF5E4CBEF05A012D3748A26CA9AB648B /* Sources */,
-				30DED3B1268FE78B3F1582399A6F5C2B /* Frameworks */,
-				6FFCEB81E18A88007B78F2945453F769 /* Headers */,
+				84735DB31B3C0D4D377E1AF2379C493C /* Headers */,
+				B8E78078224C860D472D70D1B97FE679 /* Sources */,
+				6B0780790C0FE7F07CCDDEF8CACD3121 /* Frameworks */,
+				A9B71227D98B2C62780AA19A5BCFCBAF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DEB6E0850E3B3697508155E5F92E0AC0 /* PBXTargetDependency */,
-				2D25B191D06C264C328B0EBCA874D166 /* PBXTargetDependency */,
+				1B3FB0AC09FDE86F45553D36E8B48435 /* PBXTargetDependency */,
+				BDED1E674242F80AA4668C52DA545CD6 /* PBXTargetDependency */,
 			);
 			name = "Pods-SimpleWallet";
 			productName = "Pods-SimpleWallet";
 			productReference = 48C7DA4419373A8A333C76D75C9EC907 /* Pods_SimpleWallet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BB808E86A1E5C0CC747C01265CD139D /* BitcoinKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2930BE4B3A4810C0F11846EB1007FB7C /* Build configuration list for PBXNativeTarget "BitcoinKit" */;
+			buildPhases = (
+				ED2CBAFF3922B98F85EC1B28A6DB55B9 /* Headers */,
+				CB312C7FEB1C92CD13AA3E96F2E1F9F4 /* Sources */,
+				B7B8611912E810D0291F2A226F621073 /* Frameworks */,
+				742AC77E60D1E662DE1324AD39ABB9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitcoinKit;
+			productName = BitcoinKit;
+			productReference = E40BCFC15303816CB5A3237A41BABD22 /* BitcoinKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -799,217 +802,279 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1184E125899C7DA74E56B459ED771F8C /* BitcoinKit */,
-				8905DB6521F8FDC34752B69DEE3FDEB7 /* KeychainAccess */,
-				D80FB6874B6231A136197919D8A3694B /* Pods-SimpleWallet */,
+				7BB808E86A1E5C0CC747C01265CD139D /* BitcoinKit */,
+				1630C0AC0CCE2704C3F517D1DFD56586 /* KeychainAccess */,
+				1A8E1CCF7BB2F2C8644D66C0CAADF3F5 /* Pods-SimpleWallet */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		742AC77E60D1E662DE1324AD39ABB9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82731D02B1DBAC326E46F5E6E83C1130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B71227D98B2C62780AA19A5BCFCBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		07922B3F0AA52D2D9773495B42093C04 /* Sources */ = {
+		6CF23713FC2035F5BD9D246E95236685 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0768C905AD0340760B9D29BA6FC2F59 /* Address.swift in Sources */,
-				5665237488AE23C1A1E9F4397B651FEC /* AddressFactory.swift in Sources */,
-				3A7DACB322D9D76BBBC9512D7EBBD7FC /* AddressMessage.swift in Sources */,
-				1E705577DC12F1FC20C9B78CE9EDC690 /* AddressType.swift in Sources */,
-				E577617F62D5EF2D7561EEE6D861D0A2 /* BigNumber.swift in Sources */,
-				330AED450D7F147799F2AB501D8DF421 /* BitcoinKit-dummy.m in Sources */,
-				DE15430ADF0A16DCF6FD6A4813D28F56 /* BitcoinKitPrivate.m in Sources */,
-				3A537D9A892D4D64B2251E8C1260D8FF /* BlockChain.swift in Sources */,
-				3A0C82CEDCA628602D5802F0D693D579 /* BlockMessage.swift in Sources */,
-				7065302FEA1F1E8797FC83C890ECAA72 /* BlockStore.swift in Sources */,
-				B590C811C34510A5BD6751DD11879FFE /* BloomFilter.swift in Sources */,
-				A579AD83EEA6697D35C14CC4C4C7947A /* ByteStream.swift in Sources */,
-				44BEDD043E3E0B6DBB713C7D892CEED5 /* Crypto.swift in Sources */,
-				662F9484760C205CA16F802795273CC4 /* Encoding.swift in Sources */,
-				24D622C8BC34EB0A52DB0E9D67F9ACEA /* FilterLoadMessage.swift in Sources */,
-				142C868D16214F64DA49CBB4ECC159C6 /* GetBlocksMessage.swift in Sources */,
-				739347367EFC2F8F1B9363B7D29970D2 /* GetDataMessage.swift in Sources */,
-				C9D62578F00B4C334636CF68025ABB50 /* HDKeychain.swift in Sources */,
-				99D91A2CC8E78FD0396AAB1A83522120 /* HDPrivateKey.swift in Sources */,
-				99DEFFEC7AFCDA8E199ED6E5C9E51BB6 /* HDPublicKey.swift in Sources */,
-				BD4C4BBE80993A61BF03D8BDDCBBAA3B /* HDWallet.swift in Sources */,
-				200EC2EC702EBEE6FAFF6523E2525E6A /* Helpers.swift in Sources */,
-				7BEBF32378FF79D204CB40650B9954A3 /* InventoryItem.swift in Sources */,
-				996EDD7F65D34621712A1AA623BEB695 /* InventoryMessage.swift in Sources */,
-				2CFC6060074598925708A3BFFE2FC4F7 /* MerkleBlockMessage.swift in Sources */,
-				7FEE48AD63CF1BA9E7FFE9689157C697 /* Message.swift in Sources */,
-				1BD81CA8D4AA739E737AEA6758A910E1 /* Mnemonic.swift in Sources */,
-				058A7412E8535645519F2BB9126B3B13 /* MockHelper.swift in Sources */,
-				1595BE1B3A7DE575516FA564626EACFC /* MockKey.swift in Sources */,
-				631F9B352CB4622DEBE42241D0A62BB2 /* MurmurHash.swift in Sources */,
-				7B6776E0EF3E0D416282F886101D72CC /* Network.swift in Sources */,
-				A655A6EBC14970F1257E54EC8D824BB4 /* NetworkAddress.swift in Sources */,
-				B7FDF6080DBD999DE5AA186734B0A941 /* OP_0.swift in Sources */,
-				CDD0EB0C8E71E78EB3237C1ADDBDEAA5 /* OP_0NOTEQUAL.swift in Sources */,
-				648D0620E04BC240A70B33CF6BE8143B /* OP_1ADD.swift in Sources */,
-				ED797CC34FDA9C63E8EBD4E429542D30 /* OP_1NEGATE.swift in Sources */,
-				AC7733DD69CFC011F124552D348431D2 /* OP_1SUB.swift in Sources */,
-				6FF3DDCEC173FDB9A2E019D98904A18F /* OP_2DIV.swift in Sources */,
-				484269AA3240B5CB4A36A8DBBCAC4763 /* OP_2DROP.swift in Sources */,
-				30E35C9BC504C0A8CA5A0DAA8DB0D9FE /* OP_2DUP.swift in Sources */,
-				65E373C5273AD61C4A2E6995E1475402 /* OP_2MUL.swift in Sources */,
-				F90844C3669A685B52F0F2AA86572DFF /* OP_2OVER.swift in Sources */,
-				A815907A6ABD84F67C42EB06F803D671 /* OP_2ROT.swift in Sources */,
-				DB49ACD9C3BF985EE37EA0C738273385 /* OP_2SWAP.swift in Sources */,
-				005638E76A373921988DEBE3FB871A3B /* OP_3DUP.swift in Sources */,
-				827F59A957F0F070A2062E73F17CA557 /* OP_ABS.swift in Sources */,
-				D74601AE77717D14C591AA52EF48549C /* OP_ADD.swift in Sources */,
-				528E1BA4CB98BD2DE2D170A250EEB67C /* OP_AND.swift in Sources */,
-				6FE9CFA5CFB3B885899E6064A7B21669 /* OP_BIN2NUM.swift in Sources */,
-				44D4FED42EC82F19067B00FE860F6BE2 /* OP_BOOLAND.swift in Sources */,
-				2F8C291A1D781A55531F621F01E606C4 /* OP_BOOLOR.swift in Sources */,
-				7407450D5E584B71985FD75A0134DF16 /* OP_CAT.swift in Sources */,
-				9B0106DD8E10669288A26475DA5D5EBF /* OP_CHECKLOCKTIMEVERIFY.swift in Sources */,
-				9E7AAF02F6EA22F04449E55DE95A57AC /* OP_CHECKMULTISIG.swift in Sources */,
-				874942F7A4C596CA59DDDF4E6CEB333A /* OP_CHECKMULTISIGVERIFY.swift in Sources */,
-				4281CAA6BD613EE7F80F4D33ACEFD82D /* OP_CHECKSEQUENCEVERIFY.swift in Sources */,
-				62B1E2EC6E27945515960EC4427D0784 /* OP_CHECKSIG.swift in Sources */,
-				1C9676734A71DA82F17D0EFCCAE24FE6 /* OP_CHECKSIGVERIFY.swift in Sources */,
-				0649A675197D880D9C1A100779A38A77 /* OP_CODESEPARATOR.swift in Sources */,
-				AE2B8B06BD724D8F27D39E5FD76E2CA9 /* OP_DEPTH.swift in Sources */,
-				F5F7C6B461A04BE0ABE00B5F35E1C5AE /* OP_DIV.swift in Sources */,
-				E0B094A3C7A5963ED3C2BA87D4049F1F /* OP_DROP.swift in Sources */,
-				8576216624D1D051A5B090EFC9A840D4 /* OP_DUP.swift in Sources */,
-				57DB30A3E7C2EA884FB47D4594A1F17A /* OP_ELSE.swift in Sources */,
-				49A0AFD6C566F32DF5658D19AE2F639E /* OP_ENDIF.swift in Sources */,
-				8F9F49F24F10325660CAC5C341097362 /* OP_EQUAL.swift in Sources */,
-				A9BE4187A647DA165CCE2642E05D1822 /* OP_EQUALVERIFY.swift in Sources */,
-				11F3A30BEC72C0DE0B75D767985903F4 /* OP_EXAMPLE.swift in Sources */,
-				E8277F439BEF7CDDA7B8FF4781F812F3 /* OP_FROMALTSTACK.swift in Sources */,
-				D794C3AF31499C00591AF9AD75791593 /* OP_GREATERTHAN.swift in Sources */,
-				71952D66421A859E335CF3CE932E7A37 /* OP_GREATERTHANOREQUAL.swift in Sources */,
-				AE00F430A8320BB3A965105DADF2541D /* OP_HASH160.swift in Sources */,
-				EDC397F87AC4F10AE5C63DB896A87DC1 /* OP_HASH256.swift in Sources */,
-				200E19BBB3BBFED418D65F916D7C2E2A /* OP_IF.swift in Sources */,
-				E6AE858C2DC568C93AF7142F293DB067 /* OP_IFDUP.swift in Sources */,
-				FC7E71959F25CCDEEBA59F7D5BB947CA /* OP_INVALIDOPCODE.swift in Sources */,
-				1BA3C3699D4A6A8105F5E205E6298B49 /* OP_INVERT.swift in Sources */,
-				63BF281A0132B8BD08E635F2321CFB76 /* OP_LESSTHAN.swift in Sources */,
-				E71DB30D451DE0A4591EE3443CEF334B /* OP_LESSTHANOREQUAL.swift in Sources */,
-				7C8D2D19BED529ACC4A623D48C868EE1 /* OP_LSHIFT.swift in Sources */,
-				A189E7A90F06FC1FA1902321A2A70A38 /* OP_MAX.swift in Sources */,
-				735F9CDC140698F1B656D2A8FAF52E7C /* OP_MIN.swift in Sources */,
-				C979AA503813A0AA60F0BE7C6A88AD91 /* OP_MOD.swift in Sources */,
-				350D79D5A243C3BE8DA0336259E85D9A /* OP_MUL.swift in Sources */,
-				07B85E7B03F9F86BF177973841426162 /* OP_N.swift in Sources */,
-				CB767502DB4A1D02E606E22D37AFC10C /* OP_NEGATE.swift in Sources */,
-				FD4E7D5D8DEAF3316CB528ED5B310805 /* OP_NIP.swift in Sources */,
-				423CE825867478B7D4B40492C4705D01 /* OP_NOP.swift in Sources */,
-				9856E358067BB371E47C6D492B7F3F6C /* OP_NOPN.swift in Sources */,
-				A209FBD00334341E1BE3BF1ABD647F42 /* OP_NOT.swift in Sources */,
-				8EF49500C7C96E481CC799B3F892108E /* OP_NOTIF.swift in Sources */,
-				70731DE4A184B0A06DBCF0381E4D7321 /* OP_NUM2BIN.swift in Sources */,
-				238ED9760A24ED1B7B49E33757DD1778 /* OP_NUMEQUAL.swift in Sources */,
-				E2F0E23E959A1F05A6653C33F8DA6AAE /* OP_NUMEQUALVERIFY.swift in Sources */,
-				6E29D092533635B99200C3D894335620 /* OP_NUMNOTEQUAL.swift in Sources */,
-				E0F9BC76F085439A9EF92E61B71CF49F /* OP_OR.swift in Sources */,
-				35824EFFA806ADEBA722D636B688BB00 /* OP_OVER.swift in Sources */,
-				624A0A09EAEA059A82C869BC166E7932 /* OP_PICK.swift in Sources */,
-				34BAE199E88E6710940566F0DD44D855 /* OP_PUBKEY.swift in Sources */,
-				18F447E46B6F6027EA0C13DE6B9B7E40 /* OP_PUBKEYHASH.swift in Sources */,
-				CB98DF1FE5F10EFE7280A4CABA4DB11B /* OP_PUSHDATA.swift in Sources */,
-				25256572CF1D457A2593740420ACA2EE /* OP_RESERVED.swift in Sources */,
-				B04B0EE7716D596CE72F73FC6AD3FECA /* OP_RESERVED1.swift in Sources */,
-				1B688CD4B9CB4237F13483EE15A398F7 /* OP_RESERVED2.swift in Sources */,
-				FCE6F7F479D1EAF9FDDF3DDB98021F17 /* OP_RETURN.swift in Sources */,
-				B0C82C6B23680D216F444646381DC0AE /* OP_RIPEMD160.swift in Sources */,
-				DCEAFF872DFB4ED0BD19B8407475F15C /* OP_ROLL.swift in Sources */,
-				37EFE99285E107A9628B8AFF7EE2D600 /* OP_ROT.swift in Sources */,
-				28DA94100338AC29E5539CC683E9EDA0 /* OP_RSHIFT.swift in Sources */,
-				DE86972AEB652E9EDD324839A3752925 /* OP_SHA1.swift in Sources */,
-				CC1EAF52B44D8F0508017E8FEB09BBE5 /* OP_SHA256.swift in Sources */,
-				5868DAEFB64F5CD78FF699BE58C87077 /* OP_SIZE.swift in Sources */,
-				109107794C33138E0AEBAB48BA356090 /* OP_SPLIT.swift in Sources */,
-				E420ECE81E8061BD9CD3798D0A08EFA1 /* OP_SUB.swift in Sources */,
-				D072C7E257EC8680EAC0F96F8B00CC19 /* OP_SWAP.swift in Sources */,
-				E2AD1E5884A7B4AC793D73351D5B4CFE /* OP_TOTALSTACK.swift in Sources */,
-				2C2DE829F94E695FD23CDA84A39BEBE6 /* OP_TUCK.swift in Sources */,
-				C8B21A1AEA12476F4AB2679E35F02ACA /* OP_VER.swift in Sources */,
-				B389FE445D9AE2F732B140A72A5D2979 /* OP_VERIF.swift in Sources */,
-				CA48039CFB2E878514C728CD9DD4E348 /* OP_VERIFY.swift in Sources */,
-				FBD8F37B15E85239D2EE11D00F7A89EA /* OP_VERNOTIF.swift in Sources */,
-				1775C1E27EB8F7B33E49C19EF86DC77E /* OP_WITHIN.swift in Sources */,
-				BC291B303162AE9B62F72370DF907C8D /* OP_XOR.swift in Sources */,
-				4CEF7A74DC4827AEDBEA832153D93306 /* Opcode.swift in Sources */,
-				F8BE7BF244315F2BA8E5CC6610F663A6 /* OpCodeFactory.swift in Sources */,
-				EF261978F8F1C2F8E86AE953853DF106 /* OpCodeProtocol.swift in Sources */,
-				1FEFFB0E5F20C48880374A9B067606E3 /* PaymentURI.swift in Sources */,
-				4B18F55BE994A027A0F5A0135C202A45 /* Peer.swift in Sources */,
-				C54007800D45EF269293A3C81A1B5C84 /* PeerGroup.swift in Sources */,
-				D698E590557ABB3378CFD1AB57466617 /* PingMessage.swift in Sources */,
-				DBB02F086AA1D865C696EE14C8626C59 /* PongMessage.swift in Sources */,
-				72916CC3C7212CFD33FABAE675514F9F /* PrivateKey.swift in Sources */,
-				F891EFC69C80321E8FFB2BCA27DB7A91 /* PublicKey.swift in Sources */,
-				D96B92D0495D5BAB25E3A5F1FC7FBE5C /* RejectMessage.swift in Sources */,
-				CE452584434A71C2751BA4339CEBC124 /* Script.swift in Sources */,
-				F81386354127921C7FB60231DFC0A7EC /* ScriptChunk.swift in Sources */,
-				AB541932B83EC3D17E71D186070D6AE2 /* ScriptChunkHelper.swift in Sources */,
-				4D67FBB90478408172162ACF8AB78453 /* ScriptExecutionContext.swift in Sources */,
-				931C87A667BD75EA7B275F087387159E /* ScriptFactory.swift in Sources */,
-				4F309A40582A6980C50780B3DE6991EB /* ScriptMachine.swift in Sources */,
-				1DDFDC1DF6D51A6B24DA06D83A07D9D7 /* Serialization.swift in Sources */,
-				1B9EA24EE0081302C38B4D8D917A12D9 /* ServiceFlags.swift in Sources */,
-				5036A37BF29705CBC4FCDB0EB42CE065 /* SighashType.swift in Sources */,
-				55EBEEE7CC7ABCE0670217087A6B05CF /* Transaction+SignatureHash.swift in Sources */,
-				F83603933779A89D52B953D7084D1F5E /* Transaction.swift in Sources */,
-				071F628A3CDA6E767B3D17BA052D1370 /* TransactionInput.swift in Sources */,
-				C4823E1C977A62F0A103213409EFEF0F /* TransactionOutPoint.swift in Sources */,
-				A248247463B7E941F5EE418327BC4BB0 /* TransactionOutput.swift in Sources */,
-				C3415E4B266B908811E60D6DCC6A016E /* TransactionSignatureSerializer.swift in Sources */,
-				D8F7F0D6716D280E292CDA95D448C376 /* TransactionWitness.swift in Sources */,
-				80B2AF2F0C899BFBF87D1D8DBF6DEAC9 /* UnitsAndLimits.swift in Sources */,
-				E38D457187C9EBCEC3A5973CD4CFE2A6 /* UnsignedTransaction.swift in Sources */,
-				C79EFC5ABF1D3EB4ED9CCC2EFC755EA8 /* UnspentTransaction.swift in Sources */,
-				5A7F3EA8C76796A0C463385AD056654F /* VarInt.swift in Sources */,
-				E8C02A2D8EABB80F93226D49273B4E91 /* VarString.swift in Sources */,
-				8211F593356AEDF14F34E3942EF9CD8E /* VerackMessage.swift in Sources */,
-				11497A7B2AD4F11BA89874A4F8CE69C2 /* VersionByte.swift in Sources */,
-				3BA4A3C681733EA5309A099264690C1E /* VersionMessage.swift in Sources */,
-				FA1CB80EE6842039B1472266A41D084D /* Wallet.swift in Sources */,
-				6EE6C2C49BE66FFA0834AE9F09696AC0 /* WordList.swift in Sources */,
+				A8FC628BC39A85B021B33CD0EDF94E06 /* Keychain.swift in Sources */,
+				7FD1C9171DE80CDCBE2C974D9EE0991A /* KeychainAccess-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF5E4CBEF05A012D3748A26CA9AB648B /* Sources */ = {
+		B8E78078224C860D472D70D1B97FE679 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F794285CA02D3CEECE47A17EA2E29E45 /* Pods-SimpleWallet-dummy.m in Sources */,
+				A1CF1F5770728DECC38B5804E1F25480 /* Pods-SimpleWallet-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D26A24617ECAE11F29337DC26BE0E14F /* Sources */ = {
+		CB312C7FEB1C92CD13AA3E96F2E1F9F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A967960EE4C1C1AF8A3FC3555BABDC58 /* Keychain.swift in Sources */,
-				D823270043210DD356225D7700FAF3E4 /* KeychainAccess-dummy.m in Sources */,
+				3E5CBC83A77A553D5BAFEFCBF7A04D0B /* Address.swift in Sources */,
+				65588EDAE42AE4B40474BA18FE581172 /* AddressFactory.swift in Sources */,
+				EDEA85804ECAF9EC8E11651411637F70 /* AddressMessage.swift in Sources */,
+				0B0F018CB2949D00DEF0F0CCB9D0FB66 /* AddressType.swift in Sources */,
+				23D80AA1DD0FBEB1FC6388908994C1CF /* BigNumber.swift in Sources */,
+				C88FB0BD7FEA312A5BD869D07FC19FE1 /* BitcoinKit-dummy.m in Sources */,
+				31039F1A79EFD94B3066F5E42DA138FC /* BitcoinKitPrivate.m in Sources */,
+				58BEDB525E85A8A4830CB1E8A55F16D3 /* BlockChain.swift in Sources */,
+				3AEBE5A2360CA44571D671BD269AC4CF /* BlockMessage.swift in Sources */,
+				8A8774C00DC44380C574081E2E06FC07 /* BlockStore.swift in Sources */,
+				98861A27B0C088AFF5AC1251FAC52905 /* BloomFilter.swift in Sources */,
+				A847C182D044F960D6364890C570C9DC /* ByteStream.swift in Sources */,
+				DF6F6B944CB1E0CB8D26A344C8E2C242 /* Crypto.swift in Sources */,
+				DB6078E23D9F5C7536160168D9E198E7 /* Encoding.swift in Sources */,
+				4086063E44D6A26E5123CA03A4DF9940 /* FilterLoadMessage.swift in Sources */,
+				2315431E3DF0A93FA3E7710646AE9042 /* GetBlocksMessage.swift in Sources */,
+				C4B2B6A9AACCA965C1DA9C421883C32C /* GetDataMessage.swift in Sources */,
+				9114CAE6E1675C1F638C58FA588C77B2 /* HDKeychain.swift in Sources */,
+				5680A62EBE7CB891E05F1117D2347EA7 /* HDPrivateKey.swift in Sources */,
+				AC4DA3DED4EDDCA48A87C79EAAE3FC13 /* HDPublicKey.swift in Sources */,
+				D9AF000902423B718626680284997186 /* HDWallet.swift in Sources */,
+				D311E165210CFCFE13A67A9C3C75F7FB /* Helpers.swift in Sources */,
+				4C98A3866FD37626B2EF26DAEB45969B /* InventoryItem.swift in Sources */,
+				FEBDF0AAAB80788E05967F713BAF7780 /* InventoryMessage.swift in Sources */,
+				18ED446CB2DA7F8CD0E25F62F27EE7D2 /* MerkleBlockMessage.swift in Sources */,
+				3490BD06EACFE0742FFCA83F5CD718DA /* Message.swift in Sources */,
+				D153A0429C37073B54E0B9ED76211ACE /* Mnemonic.swift in Sources */,
+				F4AE984997BF10FA439025F4EEB43E9D /* MockHelper.swift in Sources */,
+				8E2CFE5A240D9468E15018F0B874849D /* MockKey.swift in Sources */,
+				6A27BE2074380470A8A617AFC069B55D /* MurmurHash.swift in Sources */,
+				5AE0FCE6849A72DC141C7DCBDA9DE079 /* Network.swift in Sources */,
+				ED30AB152EB7561F260604607CB4F880 /* NetworkAddress.swift in Sources */,
+				7D2486558C4FB273856FFFAB4865E267 /* OP_0.swift in Sources */,
+				472A7C8935A41CB873D5ECBC38DDFE60 /* OP_0NOTEQUAL.swift in Sources */,
+				4729E358D9FB6A0B9CA77383114F1EA3 /* OP_1ADD.swift in Sources */,
+				8AE83FB37B0E7C9DACB96738F20B183B /* OP_1NEGATE.swift in Sources */,
+				38AFC806FC577E7B41EC9B240983DD65 /* OP_1SUB.swift in Sources */,
+				4AE8093F8C7C69ACFCDFA17CEF3CA929 /* OP_2DIV.swift in Sources */,
+				6C0964AC49414C09766ADFDD92D83133 /* OP_2DROP.swift in Sources */,
+				241E23F0A28ECAD70BEAB8C8BB7A7335 /* OP_2DUP.swift in Sources */,
+				EE0B482A6A245C786674E9F59F2587A4 /* OP_2MUL.swift in Sources */,
+				8AC143A964BAE7324B37934FFDAD0128 /* OP_2OVER.swift in Sources */,
+				F4E631B651027F60F0CC9B88A1BE11A6 /* OP_2ROT.swift in Sources */,
+				D78F2F3520D37FE01A27F3583465F9B1 /* OP_2SWAP.swift in Sources */,
+				C18B3AB4590746776D1D54B02D80E8DD /* OP_3DUP.swift in Sources */,
+				B40A17A593910A5C20F83F98B998B10B /* OP_ABS.swift in Sources */,
+				D7ABC78FFBCAEA1A268B62E018D3F2F8 /* OP_ADD.swift in Sources */,
+				BA5A4BFB25636D0B7D8D939FD60D622F /* OP_AND.swift in Sources */,
+				A23C3E60EDB34A89F9F2A78964815795 /* OP_BIN2NUM.swift in Sources */,
+				FBBFB3779E07899B3135CCF4256B335E /* OP_BOOLAND.swift in Sources */,
+				2037ED14ADD06F8E192DD8B4B51722AD /* OP_BOOLOR.swift in Sources */,
+				E93EC5BBCD7813613389D4730C70ED32 /* OP_CAT.swift in Sources */,
+				274833CFCC9A239B052BC2577E5D2F2C /* OP_CHECKLOCKTIMEVERIFY.swift in Sources */,
+				6A485F47A2C961B61EF818B380CE8397 /* OP_CHECKMULTISIG.swift in Sources */,
+				547FD7567BC36CD386D4014CF2E24F88 /* OP_CHECKMULTISIGVERIFY.swift in Sources */,
+				2B51D8291AACDA5D6FD55DC9106E6B20 /* OP_CHECKSEQUENCEVERIFY.swift in Sources */,
+				1DDBC580858BEA1D552DC8011D027534 /* OP_CHECKSIG.swift in Sources */,
+				91C0C34D2873BCD2273CDD4C9519BC6D /* OP_CHECKSIGVERIFY.swift in Sources */,
+				2A013A1307A7A8C59DF63BAAF94EA68D /* OP_CODESEPARATOR.swift in Sources */,
+				08DC88BBE02BD01DEC15096A16182BFA /* OP_DEPTH.swift in Sources */,
+				3A56B8DDD2DD8289607D35CF42CF92DC /* OP_DIV.swift in Sources */,
+				DADE41AB9929F4E374878C46D93672BB /* OP_DROP.swift in Sources */,
+				6C7C52045A92A58E4D3DD54CE7F63BC3 /* OP_DUP.swift in Sources */,
+				CB1521CEAB8FBE8FEDA262B231126E80 /* OP_ELSE.swift in Sources */,
+				DB8E543A171F68212ABEA1BAC1FD90E3 /* OP_ENDIF.swift in Sources */,
+				E290B0DD940E4F782FC37EC74D425D9E /* OP_EQUAL.swift in Sources */,
+				1D36ADE9895898876835FE016B50EF7D /* OP_EQUALVERIFY.swift in Sources */,
+				F5287C598FAA3EE5DF768B9AF2F9D10C /* OP_EXAMPLE.swift in Sources */,
+				51818D435F9F22F5987C36C7CD33A9CB /* OP_FROMALTSTACK.swift in Sources */,
+				55257834FB7806E3DAE667FEABB8979B /* OP_GREATERTHAN.swift in Sources */,
+				960181EFAEE3D93C2BF2533A0D652D1D /* OP_GREATERTHANOREQUAL.swift in Sources */,
+				192924F37EFFAE11CACB245FA1DF0375 /* OP_HASH160.swift in Sources */,
+				A4038257936FE644E5AE34288610D021 /* OP_HASH256.swift in Sources */,
+				680B1667171173EC200CAD158964CA34 /* OP_IF.swift in Sources */,
+				928B8A67B2DF29ACD496D3A4062FFF2E /* OP_IFDUP.swift in Sources */,
+				E520AB49C61F2B4FF6E33C836B810D37 /* OP_INVALIDOPCODE.swift in Sources */,
+				F560B57813931422007E24A92A171C02 /* OP_INVERT.swift in Sources */,
+				8186CB303720416C816423C90549E307 /* OP_LESSTHAN.swift in Sources */,
+				CA01916DB92D1531AB0579A315ED6613 /* OP_LESSTHANOREQUAL.swift in Sources */,
+				79657BA5E222AC5BD48BF88009274987 /* OP_LSHIFT.swift in Sources */,
+				C13C544F163B84FC6F925191009D43FA /* OP_MAX.swift in Sources */,
+				BDBE97B303FDEFFF38950115537A0226 /* OP_MIN.swift in Sources */,
+				B3309EB24597828931E6F52A092241F0 /* OP_MOD.swift in Sources */,
+				1F9108A6132A54A038804DAD7C6309F0 /* OP_MUL.swift in Sources */,
+				E52300C4FF1639621B7970BECB98456F /* OP_N.swift in Sources */,
+				80CA27BF8C8B2297B163F5ACD8426A91 /* OP_NEGATE.swift in Sources */,
+				35D3070FDBEFCFDD46CF7D92D8B59190 /* OP_NIP.swift in Sources */,
+				24F172D89E83F1E8FDA1DF8D6FF0A8F5 /* OP_NOP.swift in Sources */,
+				3B182B3401DFC0E3F0CEF141E3EF9541 /* OP_NOPN.swift in Sources */,
+				B2C6188165D8518E1B382AFD5E7ADE16 /* OP_NOT.swift in Sources */,
+				B10E6FDEFD816C19E0D213D807C668B8 /* OP_NOTIF.swift in Sources */,
+				B2284A9D536AE307E7BCEB0213C9640D /* OP_NUM2BIN.swift in Sources */,
+				ADF8CEDD85244312D666847BF0819EBD /* OP_NUMEQUAL.swift in Sources */,
+				F0BF7FDA3D39F875967D4FD16B3540EE /* OP_NUMEQUALVERIFY.swift in Sources */,
+				44801B903E66726C8AEFFB2486882F35 /* OP_NUMNOTEQUAL.swift in Sources */,
+				9F23772F4666AB20496030DC802A16AB /* OP_OR.swift in Sources */,
+				1111183EAE2D29BE91BF7A505D418961 /* OP_OVER.swift in Sources */,
+				BE6F405CB95C36372B75E47953F7F125 /* OP_PICK.swift in Sources */,
+				BE3327E0ED3DDB341B56FB7F89A8C83B /* OP_PUBKEY.swift in Sources */,
+				B9A6DAD5FB8DFF4FBD00B38689980858 /* OP_PUBKEYHASH.swift in Sources */,
+				5C671D2638C99C5C822DAC5757D628ED /* OP_PUSHDATA.swift in Sources */,
+				2C9502FB6CFE170313377F2A3D98EFB8 /* OP_RESERVED.swift in Sources */,
+				6477139CDDC831F58F2B46CD550B33AC /* OP_RESERVED1.swift in Sources */,
+				6FF051A07C3438E3B05C88E30EDA193B /* OP_RESERVED2.swift in Sources */,
+				CCF465D5DDABF1680B28D0B5EF9D04C8 /* OP_RETURN.swift in Sources */,
+				963FCF5A462E5D1B2880B31C43BBC81D /* OP_RIPEMD160.swift in Sources */,
+				9E0FC76D60BA9048D31705C08FCAB6D1 /* OP_ROLL.swift in Sources */,
+				B85C1B9F62121B163D3F49DA053E333F /* OP_ROT.swift in Sources */,
+				9705A546BB68347969427450DBD4EE4B /* OP_RSHIFT.swift in Sources */,
+				183E75A6545D3BC069C6946F7B093A77 /* OP_SHA1.swift in Sources */,
+				D0850D7AD62055DF83976377C9DF4443 /* OP_SHA256.swift in Sources */,
+				58AC37F32721580785CB6773E6A49828 /* OP_SIZE.swift in Sources */,
+				EF597ADF0599D8B38D7236AD4C5986BF /* OP_SPLIT.swift in Sources */,
+				5E870C46E55465C48C65F758B80CCC28 /* OP_SUB.swift in Sources */,
+				7B389431DF72DE53528B66814DB8C474 /* OP_SWAP.swift in Sources */,
+				C0A9597393813F52A768D81CF7F58479 /* OP_TOTALSTACK.swift in Sources */,
+				B1F5FC45C33D42432312DE137EB78AEC /* OP_TUCK.swift in Sources */,
+				BBE5EA95C31DE080FEE500B4CA3353C2 /* OP_VER.swift in Sources */,
+				99C14A35316D48172F9308CE0CCFEBAE /* OP_VERIF.swift in Sources */,
+				3688CCA06F4F84AB37685D2AE5EF0825 /* OP_VERIFY.swift in Sources */,
+				B22AA6974B3D1AD1883910B083C2990B /* OP_VERNOTIF.swift in Sources */,
+				FEA5B942F8D2F40B9423067DADD00D57 /* OP_WITHIN.swift in Sources */,
+				A0A57B0EC615748BE83BC79D0C27E62A /* OP_XOR.swift in Sources */,
+				090BF516CDF70BF8D909371E39A868FC /* Opcode.swift in Sources */,
+				343E89098688BF67410ACC0D2C77E426 /* OpCodeFactory.swift in Sources */,
+				D18B6173CAE78C8B3AF25BABB7AC6D19 /* OpCodeProtocol.swift in Sources */,
+				D89D5028D4FDB6DBA3141B55B99C35DE /* PaymentURI.swift in Sources */,
+				1411B14C52E3CD4CFE323D180AAE3F94 /* Peer.swift in Sources */,
+				7D0B6341EA9DAD710FA1DBFB714BDF3B /* PeerGroup.swift in Sources */,
+				588A8E8E2717A87BC08610AF2059525E /* PingMessage.swift in Sources */,
+				7988A1BE33E7F6FDB16E5B0C5DB9CB17 /* PongMessage.swift in Sources */,
+				EA45AC865065C80EB3D655063F367743 /* PrivateKey.swift in Sources */,
+				E661FB26DE05EADEA09F5F93A83D6465 /* PublicKey.swift in Sources */,
+				E65AA6EF1739D90485EFD0C04A8FF7B0 /* RejectMessage.swift in Sources */,
+				E9A5799863B8E71890F9C69E282505F5 /* Script.swift in Sources */,
+				97FD1B6CF3703E1BAEB1DF195DABA6B8 /* ScriptChunk.swift in Sources */,
+				53F89FB406004253B447D1B94C0FAF45 /* ScriptChunkHelper.swift in Sources */,
+				B0D334E5816E61F79A69BE62754CC559 /* ScriptExecutionContext.swift in Sources */,
+				BDA8FFCE5FB713C404D530EA5EA0F675 /* ScriptFactory.swift in Sources */,
+				C1FD11FB1172424541817F80660F6C59 /* ScriptMachine.swift in Sources */,
+				B8788882AB01AC43E337FF682A176A22 /* Serialization.swift in Sources */,
+				E37CA561C753BACDE5B621E75304723D /* ServiceFlags.swift in Sources */,
+				77635461B0C8BA55C742373C090308F9 /* SighashType.swift in Sources */,
+				DF03261FA5DBCFE67B5ADF408B1E9754 /* Transaction+SignatureHash.swift in Sources */,
+				8ED6816DA7E3F5A644D4F034A4D3E05B /* Transaction.swift in Sources */,
+				CAC1AAE6EBA84B2899B0AF1A809487E0 /* TransactionInput.swift in Sources */,
+				1C7AEB5DDE7A4CEF99F2275AC2B0F1BD /* TransactionOutPoint.swift in Sources */,
+				6D165E987617F74D939222B8B7498CA5 /* TransactionOutput.swift in Sources */,
+				C4C7946B79D64839B1B47E49F7696FD1 /* TransactionSignatureSerializer.swift in Sources */,
+				21EF630AB4C7BA286541E6D0FDEB38FC /* TransactionWitness.swift in Sources */,
+				DCB89F1EA18810DCB2FC0F0400B214E5 /* UnitsAndLimits.swift in Sources */,
+				DCD8E47CAD79A99033B0715635A0A641 /* UnsignedTransaction.swift in Sources */,
+				51F6E7CF554BF043DF4E6387EC8587BB /* UnspentTransaction.swift in Sources */,
+				E9A3D802826D4B22D794D469551D61F9 /* VarInt.swift in Sources */,
+				562108714E01022E3016902CD7930B55 /* VarString.swift in Sources */,
+				9C5D6767EF9DCDF0DFC87997EB889D50 /* VerackMessage.swift in Sources */,
+				6F600E3B75B0D8683B50009CDAE4630D /* VersionByte.swift in Sources */,
+				BE256B8CA44715D97C79236ECDF7968C /* VersionMessage.swift in Sources */,
+				938AF431A7579958DDCEED8512B2D6F0 /* Wallet.swift in Sources */,
+				61702068158B1DC8DF4CB4E352ECDA06 /* WordList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2D25B191D06C264C328B0EBCA874D166 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KeychainAccess;
-			target = 8905DB6521F8FDC34752B69DEE3FDEB7 /* KeychainAccess */;
-			targetProxy = A51B0D8BFB04B23BBD406E6210469841 /* PBXContainerItemProxy */;
-		};
-		DEB6E0850E3B3697508155E5F92E0AC0 /* PBXTargetDependency */ = {
+		1B3FB0AC09FDE86F45553D36E8B48435 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BitcoinKit;
-			target = 1184E125899C7DA74E56B459ED771F8C /* BitcoinKit */;
-			targetProxy = 7D6E26806E1858D0836EA5ABE190466A /* PBXContainerItemProxy */;
+			target = 7BB808E86A1E5C0CC747C01265CD139D /* BitcoinKit */;
+			targetProxy = B7295694488645097D66F55EC7D4A555 /* PBXContainerItemProxy */;
+		};
+		BDED1E674242F80AA4668C52DA545CD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainAccess;
+			target = 1630C0AC0CCE2704C3F517D1DFD56586 /* KeychainAccess */;
+			targetProxy = 6A55CE93E048A34CFB673CC2780A8088 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A2D572D2060FBB6B4CFE5A64F8D4BD8 /* Release */ = {
+		29C7B9D47A58D736B8CE6F39BB2EDC8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1AE0403DEF92C2CA7639BE5075FBEC9 /* BitcoinKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BitcoinKit/BitcoinKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BitcoinKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BitcoinKit/BitcoinKit.modulemap";
+				PRODUCT_MODULE_NAME = BitcoinKit;
+				PRODUCT_NAME = BitcoinKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38A79D2333013984E14661BE1CE5FDA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F29D0D8EF79D9D89D1E7342234985014 /* Pods-SimpleWallet.release.xcconfig */;
 			buildSettings = {
@@ -1041,7 +1106,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1049,7 +1115,47 @@
 			};
 			name = Release;
 		};
-		306992186C7C750ADE0525C5BB57BFFF /* Release */ = {
+		63FA1C9A1F9DB2B70D67A426FC6B4ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B9C687D684DB223C471CA83749BFA4 /* Pods-SimpleWallet.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleWallet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleWallet/Pods-SimpleWallet.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8EC2C9D1C932CDE36AFC5733333D66B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1AE0403DEF92C2CA7639BE5075FBEC9 /* BitcoinKit.xcconfig */;
 			buildSettings = {
@@ -1077,8 +1183,45 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FA223B03A543D247FE20358CF97F934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4192DBA41B3E4D588B78B32BA767C0C /* KeychainAccess.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1086,7 +1229,7 @@
 			};
 			name = Release;
 		};
-		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+		C92782E717C52E3633C9A5F211E7987A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1140,7 +1283,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -1149,7 +1293,7 @@
 			};
 			name = Debug;
 		};
-		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+		EA8C7AF90938697605468604B2A17B9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1201,86 +1345,14 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		80140B1EEC203F51D2378885C5117919 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4192DBA41B3E4D588B78B32BA767C0C /* KeychainAccess.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainAccess/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
-				PRODUCT_MODULE_NAME = KeychainAccess;
-				PRODUCT_NAME = KeychainAccess;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8A4968610CE1F0852C5606B7120D8FE6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1AE0403DEF92C2CA7639BE5075FBEC9 /* BitcoinKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BitcoinKit/BitcoinKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BitcoinKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/BitcoinKit/BitcoinKit.modulemap";
-				PRODUCT_MODULE_NAME = BitcoinKit;
-				PRODUCT_NAME = BitcoinKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A9E26F4D0BA9708A07BF1A0136E8CDD6 /* Debug */ = {
+		F66F7C79785EA0EA0C224CB38E5D0F91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F4192DBA41B3E4D588B78B32BA767C0C /* KeychainAccess.xcconfig */;
 			buildSettings = {
@@ -1310,46 +1382,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D000C4835D34A23523CD6F3112669B83 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65B9C687D684DB223C471CA83749BFA4 /* Pods-SimpleWallet.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SimpleWallet/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SimpleWallet/Pods-SimpleWallet.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1359,11 +1391,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CF92581F11A6B63B2E882BA2B252E38 /* Build configuration list for PBXNativeTarget "Pods-SimpleWallet" */ = {
+		2930BE4B3A4810C0F11846EB1007FB7C /* Build configuration list for PBXNativeTarget "BitcoinKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D000C4835D34A23523CD6F3112669B83 /* Debug */,
-				0A2D572D2060FBB6B4CFE5A64F8D4BD8 /* Release */,
+				8EC2C9D1C932CDE36AFC5733333D66B9 /* Debug */,
+				29C7B9D47A58D736B8CE6F39BB2EDC8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1371,26 +1403,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
-				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+				C92782E717C52E3633C9A5F211E7987A /* Debug */,
+				EA8C7AF90938697605468604B2A17B9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3951888244A4F787E411A46A53EF5A03 /* Build configuration list for PBXNativeTarget "BitcoinKit" */ = {
+		4BC26EB508840B6B2446C27E690E60BC /* Build configuration list for PBXNativeTarget "KeychainAccess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A4968610CE1F0852C5606B7120D8FE6 /* Debug */,
-				306992186C7C750ADE0525C5BB57BFFF /* Release */,
+				F66F7C79785EA0EA0C224CB38E5D0F91 /* Debug */,
+				8FA223B03A543D247FE20358CF97F934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FA048BBEA093CDB3F69C5B36929A5AF /* Build configuration list for PBXNativeTarget "KeychainAccess" */ = {
+		5462B9389F09819807482C6B66B32B5B /* Build configuration list for PBXNativeTarget "Pods-SimpleWallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9E26F4D0BA9708A07BF1A0136E8CDD6 /* Debug */,
-				80140B1EEC203F51D2378885C5117919 /* Release */,
+				63FA1C9A1F9DB2B70D67A426FC6B4ED3 /* Debug */,
+				38A79D2333013984E14661BE1CE5FDA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
