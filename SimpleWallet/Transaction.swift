@@ -156,3 +156,14 @@ struct TransactionDetail: Codable {
         case inputTxs = "vin"
     }
 }
+
+struct TransactionSentResult: Codable {
+    
+    let txid: Txid
+    
+    struct Txid: Codable {
+        let result: String
+        let error: String?
+        let id: Int
+    }
+}

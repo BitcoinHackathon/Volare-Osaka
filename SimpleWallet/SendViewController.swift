@@ -89,7 +89,6 @@ class SendViewController: UIViewController {
         let totalAmount: Int64 = utxos.reduce(0) { $0 + $1.output.value }
         let change: Int64 = totalAmount - amount - fee
         
-        
         // 4. LockScriptを書いて、TransactionOutputを作成する
         let lockScriptTo = Script(address: toAddress)!
         let lockScriptChange = Script(address: changeAddress)!

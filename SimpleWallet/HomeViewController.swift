@@ -22,6 +22,8 @@ class HomeViewController: UITableViewController {
     @IBAction func sendButtonTapped(_ sender: Any) {
         let sendViewController = storyboard?.instantiateViewController(withIdentifier: "SendViewController") as! SendViewController
         navigationController?.pushViewController(sendViewController, animated: true)
+        
+        makeTransaction1(amount: 10000)
     }
     
     override func viewDidLoad() {
@@ -38,11 +40,100 @@ class HomeViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         updateUI()
     }
+
     
     private func updateUI() {
         getAddress()
         getBalance()
         getTxHistory()
+    }
+    
+    public func makeTransaction1(amount: Int64) {
+        // 1. ユーザーのpubkeyを取得
+        let pubUser = AppController.shared.wallet!.publicKey
+        let base58Address = pubUser.toLegacy()
+        // 1.1 ユーザーのcashAddressを取得
+        let cashaddrUser = pubUser.toCashaddr()
+        
+        // 2. ユーザーのutxoの取得
+        let legacyAddress: String = AppController.shared.wallet!.publicKey.toLegacy().description
+        APIClient().getUnspentOutputs(withAddresses: [legacyAddress], completionHandler: { [weak self] (unspentOutputs: [UnspentOutput]) in
+            guard let strongSelf = self else {
+                return
+            }
+            let utxos = unspentOutputs.map { $0.asUnspentTransaction() }
+            // 3. 送金に必要なUTXOの選択
+            let (utxoss, fee) = (self?.selectTx(utxos: utxos, amount: amount))!
+            let totalAmount: Int64 = utxoss.reduce(0) { $0 + $1.output.value }
+            let change: Int64 = totalAmount - amount - fee
+            
+            // 4. unlockスクリプトを決める
+            // 4.1 先ずはmultiSignagtureのlock
+            let pubCar = MockKey.keyB.pubkey
+            let cashaddrCar = pubCar.toCashaddr()
+            let multiSigLockScript = ScriptFactory.Standard.buildMultiSig(publicKeys: [pubUser, pubCar], signaturesRequired: 2)!
+            let lockTimeA = ScriptFactory.LockTime.build(address: pubUser.toCashaddr(), lockIntervalSinceNow: 60*60*24)!
+            let fullScriptTo = ScriptFactory.Condition.build(scripts: [multiSigLockScript, lockTimeA])!//.toP2SH()
+            let lockScriptChange = Script(address: cashaddrUser)!
+            
+            // 5. outputの準備
+            let toOutput = TransactionOutput(value: amount, lockingScript: fullScriptTo.data)
+            let changeOutput = TransactionOutput(value: change, lockingScript: lockScriptChange.data)
+            
+            // 6. UTXOとTransactionOutputを合わせて、UnsignedTransactionを作る
+            let unsignedInputs = utxos.map { TransactionInput(previousOutput: $0.outpoint, signatureScript: Data(), sequence: UInt32.max) }
+            let tx = Transaction(version: 1, inputs: unsignedInputs, outputs: [toOutput, changeOutput], lockTime: 0)
+            let unsignedTx = UnsignedTransaction(tx: tx, utxos: utxoss)
+            let signedTx = strongSelf.signTx(unsignedTx: unsignedTx, keys: [AppController.shared.wallet!.privateKey])
+            let rawTx = signedTx.serialized().hex
+            // 7. 署名されたtxをbroadcastする
+            
+            APIClient().postTx(withRawTx: rawTx, completionHandler: { (txid, error) in
+                if let txid = txid {
+                    print("txid = \(txid)")
+                    print("txhash: https://test-bch-insight.bitpay.com/tx/\(txid)")
+                } else {
+                    print("error post \(error ?? "error = nil")")
+                }
+            })
+        })
+    }
+    
+    // 署名
+    public func signTx(unsignedTx: UnsignedTransaction, keys: [PrivateKey]) -> Transaction {
+        var inputsToSign = unsignedTx.tx.inputs
+        var transactionToSign: Transaction {
+            return Transaction(version: unsignedTx.tx.version, inputs: inputsToSign, outputs: unsignedTx.tx.outputs, lockTime: unsignedTx.tx.lockTime)
+        }
+        
+        // Signing
+        let hashType = SighashType.BCH.ALL
+        for (i, utxo) in unsignedTx.utxos.enumerated() {
+            let pubkeyHash: Data = Script.getPublicKeyHash(from: utxo.output.lockingScript)
+            
+            let keysOfUtxo: [PrivateKey] = keys.filter { $0.publicKey().pubkeyHash == pubkeyHash }
+            guard let key = keysOfUtxo.first else {
+                continue
+            }
+            
+            let sighash: Data = transactionToSign.signatureHash(for: utxo.output, inputIndex: i, hashType: SighashType.BCH.ALL)
+            let signature: Data = try! Crypto.sign(sighash, privateKey: key)
+            let txin = inputsToSign[i]
+            let pubkey = key.publicKey()
+            
+            // unlockScriptを作る
+            let unlockingScript = Script.buildPublicKeyUnlockingScript(signature: signature, pubkey: pubkey, hashType: hashType)
+            let _ = try! Script().appendData(signature + UInt8(hashType)).appendData(pubkey.raw)
+            let _ = try! Script() // [OP_0 sigA sigB] [lockScript.data]
+            // TODO: sequenceの更新
+            inputsToSign[i] = TransactionInput(previousOutput: txin.previousOutput, signatureScript: unlockingScript, sequence: txin.sequence)
+        }
+        return transactionToSign
+    }
+    
+    // 手数料の設定
+    public func selectTx(utxos: [UnspentTransaction], amount: Int64) -> (utxos: [UnspentTransaction], fee: Int64) {
+        return (utxos, 500)
     }
     
     // walletの作成
