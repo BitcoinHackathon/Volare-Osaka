@@ -25,6 +25,7 @@
 		978C86012128ABBD00A8F27E /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 978C85FE2128ABBC00A8F27E /* car.png */; };
 		A8336F2F212874DF00FD03A5 /* car.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8336F2E212874DF00FD03A5 /* car.storyboard */; };
 		A8336F312128753400FD03A5 /* carViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8336F302128753400FD03A5 /* carViewController.swift */; };
+		A8FDC4F32129167500D3A3F7 /* taxi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8FDC4F22129167500D3A3F7 /* taxi.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		978C85FE2128ABBC00A8F27E /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
 		A8336F2E212874DF00FD03A5 /* car.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = car.storyboard; sourceTree = "<group>"; };
 		A8336F302128753400FD03A5 /* carViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carViewController.swift; sourceTree = "<group>"; };
+		A8FDC4F22129167500D3A3F7 /* taxi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taxi.jpg; sourceTree = "<group>"; };
 		BB88B0D18594CC5096B8A960 /* Pods_SimpleWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60041C4C0DB7CD20893A5C3 /* Pods-SimpleWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleWallet/Pods-SimpleWallet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +110,7 @@
 		978C85FB2128ABBC00A8F27E /* image */ = {
 			isa = PBXGroup;
 			children = (
+				A8FDC4F22129167500D3A3F7 /* taxi.jpg */,
 				978C85FC2128ABBC00A8F27E /* GoogleMap.png */,
 				978C85FD2128ABBC00A8F27E /* man.png */,
 				978C85FE2128ABBC00A8F27E /* car.png */,
@@ -197,6 +200,7 @@
 				0C26AB9B2126C5BB00170732 /* Main.storyboard in Resources */,
 				978C85FF2128ABBD00A8F27E /* GoogleMap.png in Resources */,
 				0C26AB852126C59F00170732 /* LaunchScreen.storyboard in Resources */,
+				A8FDC4F32129167500D3A3F7 /* taxi.jpg in Resources */,
 				0C26AB822126C59F00170732 /* Assets.xcassets in Resources */,
 				A8336F2F212874DF00FD03A5 /* car.storyboard in Resources */,
 			);
