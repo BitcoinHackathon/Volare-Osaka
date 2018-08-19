@@ -14,6 +14,8 @@ class APIClient {
     private let apiEndPoint = "https://test-bch-insight.bitpay.com/api" // Mainnet: "https://bch-insight.bitpay.com/api"
     func getUnspentOutputs(withAddresses addresses: [String], completionHandler: @escaping ([UnspentOutput]) -> ()) {
         let paramAddrs = addresses.joined(separator: ",")
+        
+//        let url = "https://trest.bitcoin.com/v1/address/utxo/\(paramAddrs)"
         let url = "\(apiEndPoint)/addrs/\(paramAddrs)/utxo"
         print("get unspent outputs url = \(url)")
         get(url: url, completion: { (data) in
@@ -61,8 +63,8 @@ class APIClient {
                 return
             }
             do {
-                let tx = try JSONDecoder().decode(TransactionDetail.self, from: data)
-                completionHandler(tx.txid, nil)
+                let tx = try JSONDecoder().decode(TransactionSentResult.self, from: data)
+                completionHandler(tx.txid.result, nil)
             } catch {
                 print("Serialize Error")
                 if let error = String(data: data, encoding: .utf8) {
