@@ -9,14 +9,14 @@
 import UIKit
 import BitcoinKit
 
-var mator: Int = 0
+
 
 class SendViewController: UIViewController {
     @IBOutlet weak var carView: UIImageView!
     @IBOutlet weak var manView: UIImageView!
     @IBOutlet weak var money: UILabel!
     @IBOutlet weak var distance: UILabel!
-    
+    var mator: Int = 0
     @IBAction func
         sendButtonTapped(_ sender: Any) {
         // 送金をする
