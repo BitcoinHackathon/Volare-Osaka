@@ -9,19 +9,21 @@
 import UIKit
 import BitcoinKit
 
+var mator: Int = 0
+
 class SendViewController: UIViewController {
     @IBOutlet weak var carView: UIImageView!
     @IBOutlet weak var manView: UIImageView!
     @IBOutlet weak var money: UILabel!
-   
+    @IBOutlet weak var distance: UILabel!
+    
     @IBAction func
         sendButtonTapped(_ sender: Any) {
         // 送金をする
         let address: Address = try! AddressFactory.create("bchtest:qpytf7xczxf2mxa3gd6s30rthpts0tmtgyw8ud2sy3")
-        sendCoins(toAddress: address, amount: Int64(abc*100))
+        sendCoins(toAddress: address, amount: Int64(mator*100))
     }
     var timer: Timer!
-     var abc: Int = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         UIView.animate(withDuration: 0.5, delay: 1.0, animations: {
@@ -45,7 +47,7 @@ class SendViewController: UIViewController {
         }, completion: nil)
         timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: {(t)in
             self.ryokin()
-            
+        
         })
         // Do any additional setup after loading the view.
        
@@ -163,12 +165,15 @@ class SendViewController: UIViewController {
 }
 
     func ryokin() {
-            abc = abc + 1
-        money.text = String(abc) + "サトシ"
-        if abc == 3{
+            mator = mator + 1
+        money.text = String(mator) + "サトシ"
+        distance.text = String(mator) + "km"
+        if mator == 3{
             timer.invalidate()
         }
     }
+  
+    }
 
-    
-}
+
+
