@@ -10,15 +10,44 @@ import UIKit
 import BitcoinKit
 
 class SendViewController: UIViewController {
-    
+    @IBOutlet weak var carView: UIImageView!
+    @IBOutlet weak var manView: UIImageView!
+    @IBOutlet weak var money: UILabel!
+   
     @IBAction func
         sendButtonTapped(_ sender: Any) {
         // 送金をする
         
     }
-    
+    var timer: Timer!
+     var abc: Int = 0
     override func viewDidLoad() {
         super.viewDidLoad()
+        UIView.animate(withDuration: 0.5, delay: 1.0, animations: {
+            self.carView.center.y += 280.0    // animationViewを上に100だけ移動させます。
+           
+        }, completion: nil)
+        
+        UIView.animate(withDuration: 1.0, delay: 2.0, animations: {
+            self.carView.center.y += 280.0
+           
+        }, completion: nil)
+        
+        UIView.animate(withDuration: 1.0, delay: 0.0, animations: {
+            self.manView.center.x = 140.0
+        }, completion: nil)
+        UIView.animate(withDuration: 1.0, delay: 2.0, animations: {
+            self.manView.center.y += 280.0
+        }, completion: nil)
+        UIView.animate(withDuration: 1.0, delay: 3.0, animations: {
+            self.manView.center.x -= 140.0
+        }, completion: nil)
+        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: {(t)in
+            self.ryokin()
+            
+        })
+        // Do any additional setup after loading the view.
+       
         
     }
     
@@ -130,6 +159,16 @@ class SendViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
+}
+
+    func ryokin() {
+            abc = abc + 1
+        money.text = String(abc) + "サトシ"
+        if abc == 3{
+            timer.invalidate()
+        }
     }
+
     
 }

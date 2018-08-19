@@ -20,6 +20,9 @@
 		0C26AB9C2126C5BB00170732 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C26AB932126C5BB00170732 /* Transaction.swift */; };
 		0C26AB9D2126C5BB00170732 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C26AB942126C5BB00170732 /* AppController.swift */; };
 		8D0831BEE562E7B7B1EBBD67 /* Pods_SimpleWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB88B0D18594CC5096B8A960 /* Pods_SimpleWallet.framework */; };
+		978C85FF2128ABBD00A8F27E /* GoogleMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 978C85FC2128ABBC00A8F27E /* GoogleMap.png */; };
+		978C86002128ABBD00A8F27E /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 978C85FD2128ABBC00A8F27E /* man.png */; };
+		978C86012128ABBD00A8F27E /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 978C85FE2128ABBC00A8F27E /* car.png */; };
 		A8336F2F212874DF00FD03A5 /* car.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8336F2E212874DF00FD03A5 /* car.storyboard */; };
 		A8336F312128753400FD03A5 /* carViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8336F302128753400FD03A5 /* carViewController.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +43,9 @@
 		0C26AB932126C5BB00170732 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		0C26AB942126C5BB00170732 /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
 		2157C1D52AAB5B48A1E2A1AC /* Pods-SimpleWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleWallet/Pods-SimpleWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		978C85FC2128ABBC00A8F27E /* GoogleMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoogleMap.png; sourceTree = "<group>"; };
+		978C85FD2128ABBC00A8F27E /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		978C85FE2128ABBC00A8F27E /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
 		A8336F2E212874DF00FD03A5 /* car.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = car.storyboard; sourceTree = "<group>"; };
 		A8336F302128753400FD03A5 /* carViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carViewController.swift; sourceTree = "<group>"; };
 		BB88B0D18594CC5096B8A960 /* Pods_SimpleWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +85,7 @@
 		0C26AB792126C59E00170732 /* SimpleWallet */ = {
 			isa = PBXGroup;
 			children = (
+				978C85FB2128ABBC00A8F27E /* image */,
 				0C26AB7A2126C59E00170732 /* AppDelegate.swift */,
 				0C26AB8F2126C5BB00170732 /* APIClient.swift */,
 				0C26AB942126C5BB00170732 /* AppController.swift */,
@@ -96,6 +103,16 @@
 				A8336F302128753400FD03A5 /* carViewController.swift */,
 			);
 			path = SimpleWallet;
+			sourceTree = "<group>";
+		};
+		978C85FB2128ABBC00A8F27E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				978C85FC2128ABBC00A8F27E /* GoogleMap.png */,
+				978C85FD2128ABBC00A8F27E /* man.png */,
+				978C85FE2128ABBC00A8F27E /* car.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 		B59CC4344E4E89DA1F585D22 /* Frameworks */ = {
@@ -175,7 +192,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				978C86012128ABBD00A8F27E /* car.png in Resources */,
+				978C86002128ABBD00A8F27E /* man.png in Resources */,
 				0C26AB9B2126C5BB00170732 /* Main.storyboard in Resources */,
+				978C85FF2128ABBD00A8F27E /* GoogleMap.png in Resources */,
 				0C26AB852126C59F00170732 /* LaunchScreen.storyboard in Resources */,
 				0C26AB822126C59F00170732 /* Assets.xcassets in Resources */,
 				A8336F2F212874DF00FD03A5 /* car.storyboard in Resources */,
