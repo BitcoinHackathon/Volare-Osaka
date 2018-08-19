@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <view key="tableHeaderView" contentMode="scaleToFill" misplaced="YES" id="2Lw-ud-8U1">
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="2Lw-ud-8U1">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="356"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
@@ -49,8 +49,8 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWP-zz-JIi">
-                                    <rect key="frame" x="324" y="15" width="36" height="30"/>
-                                    <state key="normal" title="Send"/>
+                                    <rect key="frame" x="252" y="15" width="108" height="30"/>
+                                    <state key="normal" title="タクシーを呼ぶ"/>
                                     <connections>
                                         <action selector="sendButtonTapped:" destination="uIs-Qr-We9" eventType="touchUpInside" id="626-Ea-JLW"/>
                                     </connections>
@@ -114,7 +114,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="tintColor" red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="支払い">
-                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="sendButtonTapped:" destination="NmW-B7-IQC" eventType="touchUpInside" id="jAF-Th-2Wr"/>
