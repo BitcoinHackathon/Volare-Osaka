@@ -41,20 +41,26 @@ class HomeViewController: UITableViewController {
     
     private func updateUI() {
         getAddress()
-        //getBalance()
-        //getTxHistory()
+        getBalance()
+        getTxHistory()
     }
     
     // walletの作成
     private func createWallet() {
-        
-        
-        //AppController.shared.importWallet(wif: wif)
+        let privateKey = PrivateKey(network: .testnet)
+        let wif = privateKey.toWIF()
+        AppController.shared.importWallet(wif: wif)
     }
     
     // Addressの表示
     private func getAddress() {
-        
+        let pubkey = AppController.shared.wallet!.publicKey
+        let base58Address = pubkey.toLegacy()
+        print("base58Address: \(base58Address)")
+        let cashAddr = pubkey.toCashaddr().cashaddr
+        print("cashAddr: \(cashAddr)")
+        addressLabel.text = cashAddr
+        qrCodeImageView.image = generateVisualCode(address: cashAddr)
     }
     
     // 残高を確認する
